@@ -25,7 +25,7 @@ export default function Header() {
   });
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-primary text-primary-foreground">
+    <header className="sticky top-0 z-50 w-full bg-red-600 text-white">
       <div className="container mx-auto flex h-16 max-w-7xl flex-col items-center justify-center px-4 text-center">
         <p className="font-semibold">
           Oferta válida para a data de Hoje ({today})
