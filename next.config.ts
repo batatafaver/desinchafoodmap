@@ -1,15 +1,7 @@
 import type {NextConfig} from 'next';
 
-const repoName = 'meu-repositorio'; // <-- IMPORTANTE: Substitua pelo nome do seu repositório no GitHub
-
-const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
-
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: isGithubActions ? `/${repoName}` : '',
-  assetPrefix: isGithubActions ? `/${repoName}/` : '',
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -44,6 +36,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'maxturbodetox.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'httpshttps',
+        hostname: 'i.postimg.cc',
         port: '',
         pathname: '/**',
       },
