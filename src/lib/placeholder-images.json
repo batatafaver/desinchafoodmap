@@ -1,0 +1,70 @@
+{
+  "placeholderImages": [
+    {
+      "id": "nutri-batata",
+      "description": "Foto do criador",
+      "imageUrl": "https://i.postimg.cc/nVwmm3hB/Whats-App-Image-2025-11-08-at-19-15-30-1.jpg",
+      "imageHint": "creator portrait"
+    },
+    {
+      "id": "bonus-1",
+      "description": "Bebidas Antiinchaço",
+      "imageUrl": "https://i.postimg.cc/JnYQGm2Y/bebidas-antiinchaco.png",
+      "imageHint": "anti-bloating drinks"
+    },
+    {
+      "id": "bonus-2",
+      "description": "Imagem do bônus 2",
+      "imageUrl": "https://i.postimg.cc/X7wcMTbc/Chat-GPT-Image-11-11-2025-09-42-49.png",
+      "imageHint": "shopping guide"
+    },
+    {
+      "id": "bonus-3",
+      "description": "Receitas Anti-Inchaço Express",
+      "imageUrl": "https://i.postimg.cc/c4w55gjg/receita-antiinchaco.png",
+      "imageHint": "recipe book"
+    },
+    {
+      "id": "bonus-4",
+      "description": "Imagem do bônus 4",
+      "imageUrl": "https://i.postimg.cc/CM9mpGf8/Chat-GPT-Image-11-11-2025-09-34-07.png",
+      "imageHint": "checklist document"
+    },
+    {
+      "id": "bonus-5",
+      "description": "Imagem do bônus 5",
+      "imageUrl": "https://i.postimg.cc/4dLVPgpm/Chat-GPT-Image-11-11-2025-09-51-36.png",
+      "imageHint": "guide book"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Foto do cliente 1",
+      "imageUrl": "https://images.unsplash.com/photo-1719087358997-12957d0859e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYyNzM4NDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Foto do cliente 2",
+      "imageUrl": "https://i.postimg.cc/hvZsXm2L/Whats-App-Image-2025-11-09-at-14-17-48.jpg",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Foto do cliente 3",
+      "imageUrl": "https://images.unsplash.com/photo-1533147670608-2a2f9775d3a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjI4NDE1OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy person"
+    },
+    {
+      "id": "result-1",
+      "description": "Imagem de resultado 1",
+      "imageUrl": "https://maxturbodetox.com/wp-content/uploads/2025/10/Imagem-do-WhatsApp-de-2025-10-07-as-10.49.08_b4e9890a-1-771x1024.jpg",
+      "imageHint": "before and after"
+    },
+    {
+      "id": "result-2",
+      "description": "Imagem de resultado 2",
+      "imageUrl": "https://i.postimg.cc/hvZsXm2L/Whats-App-Image-2025-11-09-at-14-17-48.jpg",
+      "imageHint": "woman active"
+    }
+  ]
+}
