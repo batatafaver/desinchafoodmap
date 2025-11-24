@@ -4,13 +4,12 @@ import SocialProof from '@/components/landing/SocialProof';
 import Benefits from '@/components/landing/Benefits';
 import WhatsInside from '@/components/landing/WhatsInside';
 import Offer from '@/components/landing/Offer';
-import Bonuses from '@/components/landing/Bonuses';
+import OrderBumps from '@/components/landing/OrderBumps';
 import RealResults from '@/components/landing/RealResults';
 import GuaranteeFaq from '@/components/landing/GuaranteeFaq';
 import About from '@/components/landing/About';
 import LandingFooter from '@/components/landing/LandingFooter';
 import ForWhom from '@/components/landing/ForWhom';
-import OrderBumps from '@/components/landing/OrderBumps';
 
 export default function LandingPage() {
   return (
@@ -23,7 +22,6 @@ export default function LandingPage() {
         <Benefits />
         <ForWhom />
         <WhatsInside />
-        <Bonuses />
         <OrderBumps />
         <Offer />
         <GuaranteeFaq />
