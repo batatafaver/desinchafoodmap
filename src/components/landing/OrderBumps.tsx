@@ -3,34 +3,30 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Gift } from 'lucide-react';
+import { Gift, ShoppingCart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { ShoppingCart } from 'lucide-react';
 
 const bumps = [
-  { id: 'bumpA', name: 'Bebidas Antiinchaço', description: 'Receitas de chás e smoothies para aliviar o desconforto.', imageId: 'bonus-1' },
-  { id: 'bumpB', name: 'Guia de Substituições', description: 'Trocas inteligentes para não sair da dieta.', imageId: 'bonus-2' },
-  { id: 'bumpC', name: 'Receitas Anti-Inchaço Express', description: 'Pratos rápidos e deliciosos para o dia a dia.', imageId: 'bonus-3' },
   { id: 'bumpD', name: 'Checklist do Desincha Diário', description: 'Um guia impresso para acompanhar seu progresso.', imageId: 'bonus-4' },
   { id: 'bumpE', name: 'Mini Guia de Reintrodução', description: 'Volte a comer de tudo com segurança.', imageId: 'bonus-5' },
 ];
 
 export default function OrderBumps() {
   return (
-    <section className="w-full bg-background py-16 sm:py-24">
+    <section className="w-full bg-secondary/30 py-16 sm:py-24">
       <div className="container mx-auto max-w-4xl px-4 text-center">
         <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-          Turbine seus resultados com presentes exclusivos
+          Turbine Seus Resultados <span className="text-primary">(Ofertas Especiais no Checkout)</span>
         </h2>
         <p className="mt-4 text-lg text-foreground/70">
-          Você pode desbloquear estes materiais no checkout para acelerar sua jornada.
+          Ao finalizar sua compra, você terá a oportunidade única de adicionar estes materiais complementares por um preço especial.
         </p>
 
         <div className="mt-12 grid grid-cols-1 gap-8">
           {bumps.map(bump => {
             const image = PlaceHolderImages.find(p => p.id === bump.imageId);
             return (
-              <Card key={bump.id} className="transform-gpu bg-secondary/30 shadow-lg transition-all duration-300 hover:shadow-primary/20 hover:ring-2 hover:ring-primary">
+              <Card key={bump.id} className="transform-gpu bg-background shadow-lg transition-all duration-300 hover:shadow-primary/20 hover:ring-2 hover:ring-primary">
                 <CardContent className="flex flex-col items-center gap-6 p-6 text-center md:flex-row md:text-left">
                   <div className="flex-shrink-0">
                     {image ? (
@@ -59,7 +55,7 @@ export default function OrderBumps() {
             <Button asChild size="lg" className="text-sm md:text-lg bg-accent text-accent-foreground hover:bg-accent/90">
                 <a href="https://pay.kiwify.com.br/XfjVRJl">
                     <ShoppingCart className="mr-2 h-5 w-5" />
-                    Quero desinchar agora
+                    Sim, Quero Ver as Ofertas e Desinchar
                 </a>
             </Button>
         </div>

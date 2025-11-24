@@ -10,6 +10,7 @@ import GuaranteeFaq from '@/components/landing/GuaranteeFaq';
 import About from '@/components/landing/About';
 import LandingFooter from '@/components/landing/LandingFooter';
 import ForWhom from '@/components/landing/ForWhom';
+import OrderBumps from '@/components/landing/OrderBumps';
 
 export default function LandingPage() {
   return (
@@ -23,6 +24,7 @@ export default function LandingPage() {
         <ForWhom />
         <WhatsInside />
         <Bonuses />
+        <OrderBumps />
         <Offer />
         <GuaranteeFaq />
         <About />
