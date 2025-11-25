@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const allBumps = [
-  { id: 'bonus-1', name: 'Bebidas Antiinchaço', description: 'Receitas de chás e smoothies para desinchar.' },
+  { id: 'bonus-1', name: 'Bebidas Rápidas Antiinchaço', description: 'Receitas de chás e smoothies para desinchar.' },
   { id: 'bonus-2', name: 'Guia de Substituições', description: 'Trocas inteligentes para não sair da dieta.' },
   { id: 'bonus-3', name: 'Receitas Anti-Inchaço Express', description: 'Pratos rápidos e deliciosos para o dia a dia.' },
   { id: 'bonus-4', name: 'Checklist do Desincha Diário', description: 'Um guia para acompanhar seu progresso diário.' },
