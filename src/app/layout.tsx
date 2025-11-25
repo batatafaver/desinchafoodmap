@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { Inter, Montserrat } from 'next/font/google';
 import Script from 'next/script';
+import StickyCta from '@/components/landing/StickyCta';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -29,6 +30,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning className={`${inter.variable} ${montserrat.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <Script id="clarity-pixel" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
@@ -42,6 +45,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         {children}
         <Toaster />
+        <StickyCta />
       </body>
     </html>
   );
