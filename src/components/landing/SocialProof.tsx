@@ -58,16 +58,16 @@ export default function SocialProof() {
               const image = PlaceHolderImages.find(p => p.id === testimonial.id);
               return (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="flex flex-col items-center p-6 text-center">
+                  <div className="p-1 h-full">
+                    <Card className="h-full">
+                      <CardContent className="flex h-full flex-col items-center p-6 text-center">
                         {image && (
                           <Image
                             src={image.imageUrl}
                             alt={`Foto de ${testimonial.name}`}
                             width={100}
                             height={100}
-                            className="rounded-full"
+                            className="rounded-full object-cover w-[100px] h-[100px]"
                             data-ai-hint={image.imageHint}
                           />
                         )}
@@ -80,7 +80,7 @@ export default function SocialProof() {
                           <Star className="h-4 w-4 fill-current" />
                           <Star className="h-4 w-4 fill-current" />
                         </div>
-                        <p className="italic text-foreground/80">{testimonial.comment}</p>
+                        <p className="italic text-foreground/80 flex-grow">{testimonial.comment}</p>
                       </CardContent>
                     </Card>
                   </div>
