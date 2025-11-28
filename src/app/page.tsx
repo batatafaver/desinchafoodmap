@@ -4,7 +4,6 @@ import SocialProof from '@/components/landing/SocialProof';
 import Benefits from '@/components/landing/Benefits';
 import WhatsInside from '@/components/landing/WhatsInside';
 import Offer from '@/components/landing/Offer';
-import OrderBumps from '@/components/landing/OrderBumps';
 import RealResults from '@/components/landing/RealResults';
 import GuaranteeFaq from '@/components/landing/GuaranteeFaq';
 import About from '@/components/landing/About';
@@ -22,7 +21,6 @@ export default function LandingPage() {
         <SocialProof />
         <Benefits />
         <WhatsInside />
-        <OrderBumps />
         <Offer />
         <About />
         <GuaranteeFaq />
