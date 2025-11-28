@@ -7,11 +7,10 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const allBumps = [
-  { id: 'bonus-1', name: 'Bebidas Rápidas Antiinchaço', description: 'Receitas de chás e smoothies para desinchar.' },
-  { id: 'bonus-2', name: 'Guia de Substituições', description: 'Trocas inteligentes para não sair da dieta.' },
-  { id: 'bonus-3', name: 'Receitas Anti-Inchaço Express', description: 'Pratos rápidos e deliciosos para o dia a dia.' },
-  { id: 'bonus-4', name: 'Checklist do Desincha Diário', description: 'Um guia para acompanhar seu progresso diário.' },
-  { id: 'bonus-5', name: 'Mini Guia de Reintrodução', description: 'Volte a comer de tudo com segurança e sem medo.' },
+  { id: 'bonus-1', name: 'Protocolo Detox 7 dias para desinchar 5x mais rápido - R$19,90', description: 'Tenha acesso a um guia alimentar para desinchar.' },
+  { id: 'bonus-2', name: 'Treino 7/30 - R$27,00', description: 'Treino de 8 a 15 minutos pra você fazer em casa e perder 7kg em 30 dias.' },
+  { id: 'bonus-3', name: 'Guia Alimentar anti-inflamatórios para TPM - R$9,90', description: 'Tenha acesso a um guia alimentar que vai te ajudar a reduzir os efeitos colaterais da TPM.' },
+  { id: 'bonus-4', name: 'Leve todos com 35% de desconto - R$37,00', description: 'Acesso a todos os materiais extras com um super desconto.' },
 ];
 
 export default function OrderBumps() {
