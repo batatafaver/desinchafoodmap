@@ -24,8 +24,8 @@ export default function LandingPage() {
         <WhatsInside />
         <OrderBumps />
         <Offer />
-        <GuaranteeFaq />
         <About />
+        <GuaranteeFaq />
       </main>
       <LandingFooter />
     </div>
