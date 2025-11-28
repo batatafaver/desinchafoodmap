@@ -18,9 +18,9 @@ export default function LandingPage() {
       <main className="flex w-full flex-col items-center overflow-x-hidden">
         <Hero />
         <RealResults />
+        <ForWhom />
         <SocialProof />
         <Benefits />
-        <ForWhom />
         <WhatsInside />
         <OrderBumps />
         <Offer />
