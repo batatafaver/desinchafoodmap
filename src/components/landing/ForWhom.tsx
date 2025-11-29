@@ -4,18 +4,18 @@ import { Check, X } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const forYou = [
-    'Sente a barriga estufada após comer',
-    'Sofre com gases e desconforto abdominal',
-    'Quer usar roupas justas sem se preocupar',
-    'Busca uma solução prática e sem dietas malucas',
-    'Quer entender seu corpo e comer em paz',
+    'Está de SACO CHEIO de se sentir estufada e com a barriga dolorida depois de comer.',
+    'Sonha em usar roupas justas sem a paranoia da "barriga de grávida".',
+    'Quer uma solução RÁPIDA, PRÁTICA e que não te obrigue a passar fome.',
+    'Busca entender seu corpo para comer em paz e sem medo.',
+    'Sente que o inchaço está roubando sua energia e sua confiança.',
 ];
 
 const notForYou = [
-    'Procura uma fórmula mágica para emagrecer',
-    'Não está disposta a seguir um plano de 7 dias',
-    'Acredita que precisa cortar tudo para ter resultado',
-    'Já tem acompanhamento médico para o problema',
+    'Acha que existe uma pílula mágica para emagrecer sem esforço.',
+    'Não está disposta a seguir um plano claro e validado por 7 dias.',
+    'Prefere continuar reclamando a tomar uma atitude para mudar.',
+    'Não quer resgatar sua autoestima e o controle sobre seu corpo.',
 ];
 
 export default function ForWhom() {
@@ -24,18 +24,18 @@ export default function ForWhom() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Este protocolo é para <span className="text-primary">você</span>?
+            Este protocolo é para <span className="text-primary">você</span>? Seja honesta.
           </h2>
           <p className="mt-4 text-lg text-foreground/70">
-            Veja se o Desinch@ de Verdade se encaixa no seu perfil e objetivos.
+            Isto não é para todo mundo. Veja se você se identifica.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-            <Card>
+            <Card className="border-green-500 border-2">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-primary flex items-center gap-2">
-                        <Check className="h-7 w-7"/>
-                        É para você que...
+                        <Check className="h-7 w-7 text-green-500"/>
+                        SIM, se você...
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -43,17 +43,17 @@ export default function ForWhom() {
                         {forYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
                                 <Check className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
-                                <span>{item}</span>
+                                <span className="font-medium">{item}</span>
                             </li>
                         ))}
                     </ul>
                 </CardContent>
             </Card>
-            <Card>
+            <Card className="border-red-500 border-2">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-destructive flex items-center gap-2">
-                        <X className="h-7 w-7"/>
-                         Não é para você que...
+                        <X className="h-7 w-7 text-red-500"/>
+                         NÃO COMPRE se você...
                     </CardTitle>
                 </CardHeader>
                 <CardContent>

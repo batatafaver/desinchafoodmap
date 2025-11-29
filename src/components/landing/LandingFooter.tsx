@@ -14,19 +14,18 @@ export default function LandingFooter() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div className="flex items-center gap-2">
             <Leaf className="h-5 w-5 text-accent" />
-            <span className="text-sm font-semibold">Desinch@ de Verdade - 7 dias</span>
+            <span className="text-sm font-semibold">Protocolo Desinch@ - 7 Dias</span>
           </div>
           <div className="flex gap-4 text-sm">
             <Link href="#" className="text-foreground/70 hover:text-primary">Política de Privacidade</Link>
             <Link href="#" className="text-foreground/70 hover:text-primary">Termos de Uso</Link>
-            <Link href="#" className="text-foreground/70 hover:text-primary">Contato</Link>
           </div>
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
           <p className="text-center text-xs text-foreground/60 sm:text-left">
-            © 2025 Desinch@ de Verdade - 7 dias — Todos os direitos reservados.
+            © 2025 Protocolo Desinch@ — Todos os direitos reservados.
             <br />
-            Este produto não substitui o parecer profissional. Sempre consulte um profissional da saúde para tratar de assuntos relativos à saúde.
+            Este produto não substitui o parecer médico profissional. Sempre consulte um profissional da saúde para tratar de assuntos relativos à sua saúde. Os resultados podem variar de pessoa para pessoa.
           </p>
         </div>
       </div>

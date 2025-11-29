@@ -18,8 +18,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Desinch@ de Verdade — eBook + Bônus',
-  description: 'Protocolo prático para reduzir inchaço sem dietas radicais.',
+  title: 'Protocolo Desincha — Conquiste a barriga lisa dos seus sonhos',
+  description: 'O protocolo prático para mulheres de saco cheio de sofrer com inchaço. Recupere sua autoestima em 7 dias.',
 };
 
 export default function RootLayout({
