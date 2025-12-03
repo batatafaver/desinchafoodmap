@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -5,12 +6,36 @@ import { Button } from '@/components/ui/button';
 import { Check, ShieldCheck, Star } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
+const LeafIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 256 256" {...props}>
+        <path fill="currentColor" d="M211.06,79.51A6.1,6.1,0,0,0,205,76H143.2L168,42.58a6,6,0,0,0-8.83-8.1L45.06,140.49a6.08,6.08,0,0,0-1.07,7.39,6,6,0,0,0,6,4.12H112.8L88,188.42a6,6,0,0,0,8.83,8.1L211.06,89.51A6.08,6.08,0,0,0,211.06,79.51Z" opacity="0.2" />
+        <path fill="currentColor" d="M199.63,68.27a6,6,0,0,0-7.36,1.48L128,128.49,69.73,70.27a6,6,0,0,0-8.48,8.48L119.51,137,61,195.51a6,6,0,0,0,8.48,8.48L128,145.51l58.51,58.48a6,6,0,0,0,8.48-8.48L136.49,137l63.14-63.14A6,6,0,0,0,199.63,68.27Z" />
+    </svg>
+);
+
+
 export default function Hero() {
 
   return (
-    <section id="inicio" className="w-full bg-background py-12 md:py-16">
-      <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-4">
+    <section id="inicio" className="w-full bg-background pt-8 pb-12">
+      <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-6 px-4">
         <div className="text-center">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="mx-auto h-20 w-20 text-accent"
+          >
+            <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+            <path d="M12 2c5.523 0 10 4.477 10 10" />
+            <path d="M2 12S6 4 12 4s10 8 10 8" />
+            <path d="M12 22S8 14 2 14" />
+            <path d="M12 22s4-8 10-8" />
+          </svg>
           <h1 className="font-headline text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
             Chega de Sofrer com Inchaço! Conquiste a <span className="text-primary">Barriga Lisa</span> que Você Merece em <span className="text-primary">APENAS 7 DIAS</span>.
           </h1>
