@@ -6,7 +6,7 @@ import { ShoppingCart, AlertTriangle } from 'lucide-react';
 
 export default function Offer() {
   return (
-    <section id="comprar" className="w-full bg-accent/10 py-16 sm:py-24">
+    <section id="comprar" className="w-full bg-accent/10 py-12 sm:py-16">
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
           <CardContent className="p-8 text-center md:p-12">

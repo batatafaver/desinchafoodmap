@@ -8,7 +8,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export default function Hero() {
 
   return (
-    <section id="inicio" className="w-full bg-background py-12 md:py-24">
+    <section id="inicio" className="w-full bg-background py-12 md:py-16">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-4">
         <div className="text-center">
           <h1 className="font-headline text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">

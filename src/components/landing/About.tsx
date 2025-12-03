@@ -9,7 +9,7 @@ export default function About() {
   const nutriImage = PlaceHolderImages.find(p => p.id === 'nutri-batata');
 
   return (
-    <section className="w-full bg-secondary/50 py-16 sm:py-24">
+    <section className="w-full bg-secondary/50 py-12 sm:py-16">
       <div className="container mx-auto max-w-4xl px-4 text-center">
         <div className="flex flex-col items-center gap-6 md:flex-row md:items-start md:text-left">
           {nutriImage && (

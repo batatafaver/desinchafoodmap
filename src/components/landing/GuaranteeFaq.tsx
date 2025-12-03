@@ -35,7 +35,7 @@ const faqs = [
 
 export default function GuaranteeFaq() {
   return (
-    <section id="faq" className="w-full py-16 sm:py-24">
+    <section id="faq" className="w-full py-12 sm:py-16">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div>

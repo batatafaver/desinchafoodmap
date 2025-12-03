@@ -36,7 +36,7 @@ const bonuses = [
 
 export default function WhatsInside() {
   return (
-    <section id="conteudo" className="w-full bg-secondary/30 py-16 sm:py-24">
+    <section id="conteudo" className="w-full bg-secondary/30 py-12 sm:py-16">
       <div className="container mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 px-4 md:grid-cols-2">
         <div className="md:sticky md:top-24">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">

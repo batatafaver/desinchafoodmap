@@ -23,7 +23,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section id="beneficios" className="w-full bg-secondary/30 py-16 sm:py-24">
+    <section id="beneficios" className="w-full bg-secondary/30 py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4 text-center">
         <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
           Imagine a vida <span className="text-primary">sem o inchaço</span> te controlando

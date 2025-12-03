@@ -21,7 +21,7 @@ const results = [
 
 export default function RealResults() {
   return (
-    <section className="w-full bg-background py-16 sm:py-24">
+    <section className="w-full bg-background py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
