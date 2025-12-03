@@ -6,7 +6,7 @@ import { ShoppingCart, AlertTriangle } from 'lucide-react';
 
 export default function Offer() {
   return (
-    <section id="comprar" className="w-full bg-accent/10 py-12 sm:py-16">
+    <section id="comprar" className="w-full bg-accent/10 py-8 sm:py-12">
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
           <CardContent className="p-8 text-center md:p-12">
@@ -25,7 +25,7 @@ export default function Offer() {
             <Button asChild size="lg" className="w-full max-w-md text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse">
               <a href="https://pay.kiwify.com.br/XfjVRJl">
                 <ShoppingCart className="mr-2 h-5 w-5" />
-                SIM, QUERO MINHA VAGA AGORA!
+                QUERO O PROTOCOLO AGORA!
               </a>
             </Button>
             <div className="mt-4 flex items-center justify-center gap-2 text-sm text-yellow-600">
