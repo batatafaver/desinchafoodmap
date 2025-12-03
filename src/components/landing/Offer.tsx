@@ -1,8 +1,10 @@
+
 'use client';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { ShoppingCart, AlertTriangle } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Offer() {
   return (
@@ -10,6 +12,13 @@ export default function Offer() {
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
           <CardContent className="p-8 text-center md:p-12">
+            <Image
+              src="https://i.postimg.cc/PpXGmD4r/ccb87a60-9287-422a-ae5a-9fc3e9dc512b.jpg"
+              alt="Protocolo Desincha Logo"
+              width={150}
+              height={150}
+              className="mx-auto mb-6"
+            />
             <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
               Sua Vaga na Comunidade de Mulheres que Deram um Basta no Inchaço
             </h2>
