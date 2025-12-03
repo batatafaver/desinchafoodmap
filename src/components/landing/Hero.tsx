@@ -20,22 +20,14 @@ export default function Hero() {
     <section id="inicio" className="w-full bg-background pt-8 pb-12">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-6 px-4">
         <div className="text-center">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="mx-auto h-20 w-20 text-accent"
-          >
-            <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
-            <path d="M12 2c5.523 0 10 4.477 10 10" />
-            <path d="M2 12S6 4 12 4s10 8 10 8" />
-            <path d="M12 22S8 14 2 14" />
-            <path d="M12 22s4-8 10-8" />
-          </svg>
+        <Image
+            src="https://i.postimg.cc/PpXGmD4r/ccb87a60-9287-422a-ae5a-9fc3e9dc512b.jpg"
+            alt="Protocolo Desincha Logo"
+            width={180}
+            height={180}
+            className="mx-auto mb-4"
+            priority
+        />
           <h1 className="font-headline text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
             Chega de Sofrer com Inchaço! Conquiste a <span className="text-primary">Barriga Lisa</span> que Você Merece em <span className="text-primary">APENAS 7 DIAS</span>.
           </h1>
