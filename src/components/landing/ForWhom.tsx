@@ -12,10 +12,10 @@ const forYou = [
 ];
 
 const notForYou = [
-    'Acha que existe uma pílula mágica para emagrecer sem esforço.',
-    'Não está disposta a seguir um plano claro e validado por 7 dias.',
-    'Prefere continuar reclamando a tomar uma atitude para mudar.',
-    'Não quer resgatar sua autoestima e o controle sobre seu corpo.',
+    'Dietas malucas que te fazem passar fome e te deixam sem energia.',
+    'Pílulas e chás "mágicos" que prometem tudo mas não entregam nada.',
+    'Exercícios intermináveis que não resolvem a causa raiz do problema.',
+    'Continuar gastando dinheiro com soluções que não funcionam.',
 ];
 
 export default function ForWhom() {
@@ -53,7 +53,7 @@ export default function ForWhom() {
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-destructive flex items-center gap-2">
                         <X className="h-7 w-7 text-red-500"/>
-                         NÃO COMPRE se você...
+                         MÉTODOS ANTIGOS, que não funcionam.
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
