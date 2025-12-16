@@ -3,7 +3,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ShoppingCart, AlertTriangle } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Offer() {
@@ -38,7 +38,6 @@ export default function Offer() {
               </a>
             </Button>
             <div className="mt-4 flex items-center justify-center gap-2 text-sm text-yellow-600">
-                <AlertTriangle className="h-4 w-4" />
                 <p className="text-center">
                   <span className="font-bold">⚠️ ATENÇÃO:</span> Esse valor é promocional e <span className="font-bold">PODE AUMENTAR A QUALQUER MOMENTO</span>.
                   <br />
