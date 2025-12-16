@@ -29,7 +29,7 @@ export default function Offer() {
               <p className="text-lg text-foreground/60">De <span className="line-through">R$197</span> por apenas 12x de</p>
               <p className="font-headline text-7xl font-bold text-primary">R$3,60</p>
               <p className="font-bold text-foreground/80">ou R$37 à vista</p>
-              <p className="mt-2 text-sm text-foreground/70">Menos que um café por uma vida sem inchaço!</p>
+              <p className="mt-2 text-sm text-foreground/70">👉 Menos que um café pra parar de odiar a própria barriga ☕🖕</p>
             </div>
             <Button asChild size="lg" className="w-full max-w-md text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse">
               <a href="https://pay.kiwify.com.br/XfjVRJl">
