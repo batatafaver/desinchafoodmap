@@ -3,7 +3,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ShoppingCart } from 'lucide-react';
+import { Check, ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Offer() {
@@ -12,19 +12,28 @@ export default function Offer() {
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
           <CardContent className="p-8 text-center md:p-12">
-            <Image
-              src="https://i.postimg.cc/PpXGmD4r/ccb87a60-9287-422a-ae5a-9fc3e9dc512b.jpg"
-              alt="Protocolo Desincha Logo"
-              width={150}
-              height={150}
-              className="mx-auto mb-6"
-            />
             <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-              Sua Vaga na Comunidade de Mulheres que Deram um Basta no Inchaço
+              🚨 CHEGA DE ANDAR ESTUFADA QUE NEM UM BALÃO 🚨
             </h2>
-            <p className="mt-4 text-lg text-foreground/70">
-              Acesso imediato a todo o protocolo + todos os bônus por um preço ridículo.
+            <p className="mt-4 text-lg text-foreground/80">
+                Entre AGORA no Protocolo Desincha Logo. O método que já fez 1.387 mulheres darem um BASTA no inchaço, nos gases e na vergonha de vestir roupa colada 😤
             </p>
+
+             <ul className="mt-6 text-left space-y-2 text-foreground/80">
+                <li className="flex items-start gap-2">
+                    <Check className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" />
+                    <span><span className="font-bold">Acesso imediato</span> ao protocolo completo</span>
+                </li>
+                 <li className="flex items-start gap-2">
+                    <Check className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" />
+                    <span><span className="font-bold">Comunidade fechada</span> de mulheres que NÃO ACEITAM mais sofrer</span>
+                </li>
+                 <li className="flex items-start gap-2">
+                    <Check className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" />
+                    <span><span className="font-bold">Resultados visíveis em até 7 DIAS</span> (ou você vai continuar se sentindo um lixo?)</span>
+                </li>
+            </ul>
+
             <div className="my-8">
               <p className="text-lg text-foreground/60">De <span className="line-through">R$197</span> por apenas 12x de</p>
               <p className="font-headline text-7xl font-bold text-primary">R$3,60</p>
