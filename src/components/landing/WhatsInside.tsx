@@ -45,9 +45,6 @@ export default function WhatsInside() {
           <p className="mt-4 text-lg text-foreground/70">
             Você recebe ACESSO IMEDIATO a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo simples, sem erro, sem achismo e sem enrolação.
           </p>
-          <p className="mt-2 text-lg text-foreground/70">
-            É só seguir o protocolo e parar de sofrer.
-          </p>
           <ul className="mt-8 space-y-4">
             {contentItems.map((item, index) => (
               <li key={index} className="flex items-start gap-3">
