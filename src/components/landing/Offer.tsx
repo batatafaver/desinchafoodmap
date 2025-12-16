@@ -12,7 +12,7 @@ export default function Offer() {
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
           <CardContent className="p-8 text-center md:p-12">
-            <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
+            <h2 className="text-center font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
               🚨 CHEGA DE ANDAR ESTUFADA QUE NEM UM BALÃO 🚨
             </h2>
             <p className="mt-4 text-lg text-foreground/80">
