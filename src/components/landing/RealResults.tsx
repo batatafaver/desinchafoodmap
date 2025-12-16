@@ -48,7 +48,7 @@ export default function RealResults() {
               <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg">
                 <CardContent className="p-0">
                   {image && (
-                    <div className="overflow-hidden relative h-auto w-full">
+                    <div className="overflow-hidden">
                        <Image
                         src={image.imageUrl}
                         alt={`Resultado de ${result.author}`}
