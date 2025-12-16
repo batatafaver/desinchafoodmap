@@ -17,6 +17,16 @@ const results = [
     description: '“Me sinto muito mais leve e com energia. O protocolo foi um divisor de águas para mim.”',
     author: 'Mariana S., Belo Horizonte',
   },
+  {
+    id: 'result-3',
+    description: '“Nunca imaginei que fosse possível me livrar do inchaço tão rápido. O protocolo é simples e direto ao ponto. Minha disposição é outra!”',
+    author: 'Gabriela F., Porto Alegre',
+  },
+  {
+    id: 'result-4',
+    description: '“Adeus, calças que não fechavam! Em uma semana eu já me sentia outra mulher. Funciona de verdade e sem sofrimento.”',
+    author: 'Beatriz M., Recife',
+  },
 ];
 
 export default function RealResults() {
@@ -38,12 +48,12 @@ export default function RealResults() {
               <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg">
                 <CardContent className="p-0">
                   {image && (
-                    <div className="overflow-hidden h-[400px] w-full">
+                    <div className="overflow-hidden h-auto w-full aspect-[4/5]">
                       <Image
                         src={image.imageUrl}
                         alt={`Resultado de ${result.author}`}
                         width={600}
-                        height={400}
+                        height={750}
                         className="w-full h-full object-cover object-center"
                         data-ai-hint={image.imageHint}
                       />
