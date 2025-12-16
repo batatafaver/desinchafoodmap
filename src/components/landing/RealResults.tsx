@@ -48,12 +48,13 @@ export default function RealResults() {
               <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg">
                 <CardContent className="p-0">
                   {image && (
-                    <div className="overflow-hidden relative h-auto w-full aspect-[4/5]">
-                      <Image
+                    <div className="overflow-hidden relative h-auto w-full">
+                       <Image
                         src={image.imageUrl}
                         alt={`Resultado de ${result.author}`}
-                        fill
-                        className="w-full h-full object-cover object-center"
+                        width={600}
+                        height={800}
+                        className="w-full h-auto object-contain"
                         data-ai-hint={image.imageHint}
                       />
                     </div>
