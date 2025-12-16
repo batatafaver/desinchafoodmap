@@ -40,10 +40,10 @@ export default function WhatsInside() {
       <div className="container mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 px-4 md:grid-cols-2">
         <div className="md:sticky md:top-24">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Arsenal Completo Para Sua <span className="text-primary">Transformação</span>
+            O Protocolo Completo Para Sua <span className="text-primary">Transformação</span>
           </h2>
           <p className="mt-4 text-lg text-foreground/70">
-            Você recebe acesso imediato a todo o arsenal que precisa para dar um basta no inchaço e resgatar sua autoestima.
+            Você recebe acesso imediato a todo o Protocolo que precisa para dar um basta no inchaço e resgatar sua autoestima.
           </p>
           <ul className="mt-8 space-y-4">
             {contentItems.map((item, index) => (
