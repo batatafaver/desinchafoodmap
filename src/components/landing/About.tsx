@@ -26,7 +26,7 @@ export default function About() {
             <p className="mt-2 max-w-md text-lg leading-relaxed text-foreground/80">
               Nutricionista especialista em metabolismo e saúde intestinal. Já ajudei mais de 1.300 mulheres a se livrarem do inchaço sem dietas radicais. Eu sei o caminho para você conquistar a barriga lisa que tanto deseja e a confiança que merece.
             </p>
-            <Button asChild size="lg" className="mt-6 bg-green-500 hover:bg-green-600 text-white text-lg">
+            <Button asChild size="lg" className="mt-6 bg-accent hover:bg-accent/90 text-accent-foreground text-lg">
               <a href="https://whatsa.me/5548984172555/?t=Ol%C3%A1%2C%20quero%20minha%20transforma%C3%A7%C3%A3o%20de%207%20dias" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Falar no WhatsApp
