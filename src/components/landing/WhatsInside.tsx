@@ -8,7 +8,6 @@ import { ShoppingCart } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const contentItems = [
-  'O Protocolo de 7 Dias, passo a passo, para você seguir sem erros.',
   'Guia de Alimentos: O que comer e o que evitar (de forma simples!).',
   '+50 Receitas rápidas, deliciosas e anti-inchaço (café, almoço e jantar).',
   'Lista de Compras Pronta para você não perder tempo no mercado.',
