@@ -21,7 +21,7 @@ const results = [
 
 export default function RealResults() {
   return (
-    <section className="w-full bg-background py-12 sm:py-16">
+    <section className="w-full bg-background py-8 sm:py-12">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
@@ -38,14 +38,16 @@ export default function RealResults() {
               <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg">
                 <CardContent className="p-0">
                   {image && (
-                    <Image
-                      src={image.imageUrl}
-                      alt={`Resultado de ${result.author}`}
-                      width={600}
-                      height={400}
-                      className="w-full object-cover"
-                      data-ai-hint={image.imageHint}
-                    />
+                    <div className="overflow-hidden h-[400px] w-full">
+                      <Image
+                        src={image.imageUrl}
+                        alt={`Resultado de ${result.author}`}
+                        width={600}
+                        height={400}
+                        className="w-full h-full object-cover object-center"
+                        data-ai-hint={image.imageHint}
+                      />
+                    </div>
                   )}
                   <div className="p-6">
                     <div className="flex text-yellow-500">
@@ -65,7 +67,7 @@ export default function RealResults() {
             );
           })}
         </div>
-        <div className="mt-12 text-center">
+        <div className="mt-8 text-center">
             <Button asChild size="lg" className="text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90">
                 <a href="https://pay.kiwify.com.br/XfjVRJl">
                     <ShoppingCart className="mr-2 h-5 w-5" />
