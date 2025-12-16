@@ -39,8 +39,10 @@ export default function Offer() {
             </Button>
             <div className="mt-4 flex items-center justify-center gap-2 text-sm text-yellow-600">
                 <AlertTriangle className="h-4 w-4" />
-                <p>
-                Este valor pode aumentar a <span className="font-bold">QUALQUER MOMENTO</span> sem aviso prévio.
+                <p className="text-center">
+                  <span className="font-bold">⚠️ ATENÇÃO:</span> Esse valor é promocional e <span className="font-bold">PODE AUMENTAR A QUALQUER MOMENTO</span>.
+                  <br />
+                  Quem deixa pra depois, continua inchada 🤡
                 </p>
             </div>
           </CardContent>
