@@ -101,6 +101,12 @@
       "description": "Mulher feliz sem inchaço",
       "imageUrl": "https://i.postimg.cc/W1kRkGZ6/image.png",
       "imageHint": "happy woman"
+    },
+    {
+      "id": "result-4-photo",
+      "description": "Foto do quarto depoimento",
+      "imageUrl": "https://i.postimg.cc/pVcxZmHk/Antes-e-Depois-LPF-23.png",
+      "imageHint": "testimonial photo"
     }
   ]
 }

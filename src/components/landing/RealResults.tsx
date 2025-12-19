@@ -30,6 +30,7 @@ const results = [
     id: 'result-4',
     description: '“Adeus, calças que não fechavam! Em uma semana eu já me sentia outra mulher. Funciona de verdade e sem sofrimento.”',
     author: 'Beatriz M., Recife',
+    imageId: 'result-4-photo',
   },
 ];
 
