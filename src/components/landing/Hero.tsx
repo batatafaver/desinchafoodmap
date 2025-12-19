@@ -26,7 +26,7 @@ export default function Hero() {
               <Image
                 src={logoImage.imageUrl}
                 alt={logoImage.description}
-                width={500}
+                width={300}
                 height={150}
                 className="object-contain"
                 data-ai-hint={logoImage.imageHint}
