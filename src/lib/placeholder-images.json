@@ -67,6 +67,12 @@
       "imageHint": "before and after"
     },
     {
+      "id": "result-1-photo",
+      "description": "Foto do primeiro depoimento",
+      "imageUrl": "https://i.postimg.cc/FKb9yKdb/image.png",
+      "imageHint": "testimonial photo"
+    },
+    {
       "id": "result-2",
       "description": "Imagem de resultado 2",
       "imageUrl": "https://i.postimg.cc/yYFQ3Y9J/Whats-App-Image-2025-12-16-at-15-24-11.jpg",
@@ -87,7 +93,7 @@
     {
       "id": "benefits-woman",
       "description": "Mulher feliz sem inchaço",
-      "imageUrl": "https://i.postimg.cc/GmGJh120/Gemini-Generated-Image-y2ukny2ukny2ukny.png",
+      "imageUrl": "https://i.postimg.cc/W1kRkGZ6/image.png",
       "imageHint": "happy woman"
     }
   ]

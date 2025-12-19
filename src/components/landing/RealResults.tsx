@@ -3,12 +3,16 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart, Star } from 'lucide-react';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+
 
 const results = [
   {
     id: 'result-1',
     description: '“Eu vivia com medo de comer e passar o dia todo inchada. Hoje, visto as roupas que amo e me sinto livre de novo. Foi libertador!”',
     author: 'Juliana P., Rio de Janeiro',
+    imageId: 'result-1-photo',
   },
   {
     id: 'result-2',
@@ -28,6 +32,8 @@ const results = [
 ];
 
 export default function RealResults() {
+  const result1Image = PlaceHolderImages.find(p => p.id === 'result-1-photo');
+
   return (
     <section className="w-full bg-background py-8 sm:py-12">
       <div className="container mx-auto max-w-5xl px-4">
@@ -40,9 +46,23 @@ export default function RealResults() {
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {results.map((result) => (
+          {results.map((result) => {
+            const image = result.imageId ? PlaceHolderImages.find(p => p.id === result.imageId) : null;
+            return (
               <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg flex flex-col">
                 <CardContent className="p-6 flex flex-col flex-grow">
+                  {image && (
+                     <div className="mb-4">
+                      <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        width={400}
+                        height={400}
+                        className="rounded-lg object-contain w-full h-auto"
+                        data-ai-hint={image.imageHint}
+                      />
+                    </div>
+                  )}
                   <div className="flex text-yellow-500">
                     <Star className="h-5 w-5 fill-current" />
                     <Star className="h-5 w-5 fill-current" />
@@ -56,7 +76,8 @@ export default function RealResults() {
                   <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
                 </CardContent>
               </Card>
-            ))}
+            )
+          })}
         </div>
         <div className="mt-8 text-center">
             <Button asChild size="lg" className="w-full max-w-md text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90">
