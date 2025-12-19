@@ -91,12 +91,6 @@ export default function SocialProof() {
           <CarouselPrevious className="hidden sm:flex" />
           <CarouselNext className="hidden sm:flex" />
         </Carousel>
-        <div className="mt-8 flex justify-center">
-          <Badge variant="outline" className="border-accent bg-accent/10 px-4 py-2 text-accent">
-            <ShieldCheck className="mr-2 h-5 w-5" />
-            Satisfação Garantida ou seu dinheiro de volta em 7 dias
-          </Badge>
-        </div>
       </div>
     </section>
   );
