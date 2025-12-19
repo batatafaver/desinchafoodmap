@@ -83,6 +83,12 @@
       "description": "Imagem de resultado 4",
       "imageUrl": "https://i.postimg.cc/4x0Br7TC/Whats-App-Image-2025-12-16-at-15-24-11-(1).jpg",
       "imageHint": "before after"
+    },
+    {
+      "id": "benefits-woman",
+      "description": "Mulher feliz sem inchaço",
+      "imageUrl": "https://i.postimg.cc/GmGJh120/Gemini-Generated-Image-y2ukny2ukny2ukny.png",
+      "imageHint": "happy woman"
     }
   ]
 }

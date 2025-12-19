@@ -1,7 +1,9 @@
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Heart, UtensilsCrossed, Sparkles } from 'lucide-react';
+import Image from 'next/image';
 
 const benefits = [
   {
@@ -22,6 +24,8 @@ const benefits = [
 ];
 
 export default function Benefits() {
+  const benefitsWomanImage = PlaceHolderImages.find(p => p.id === 'benefits-woman');
+  
   return (
     <section id="beneficios" className="w-full bg-secondary/30 py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4 text-center">
@@ -31,6 +35,20 @@ export default function Benefits() {
         <p className="mt-4 text-lg text-foreground/70">
           Não é só sobre desinchar. É sobre resgatar a mulher poderosa que o inchaço está aprisionando.
         </p>
+
+        {benefitsWomanImage && (
+          <div className="my-8 flex justify-center">
+            <Image
+              src={benefitsWomanImage.imageUrl}
+              alt={benefitsWomanImage.description}
+              width={500}
+              height={300}
+              className="rounded-lg shadow-lg object-cover"
+              data-ai-hint={benefitsWomanImage.imageHint}
+            />
+          </div>
+        )}
+
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {benefits.map((benefit, index) => (
             <Card key={index} className="transform-gpu text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
