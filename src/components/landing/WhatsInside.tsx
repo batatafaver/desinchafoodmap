@@ -93,8 +93,8 @@ export default function WhatsInside() {
                                     data-ai-hint={image.imageHint}
                                 />
                              )}
-                             <div className="flex-1">
-                                <p className="font-bold text-accent flex items-center gap-2">
+                             <div className="flex-1 text-center sm:text-left">
+                                <p className="font-bold text-accent flex items-center justify-center sm:justify-start gap-2">
                                     <Gift className="h-5 w-5" />
                                     {bonus.title}
                                 </p>

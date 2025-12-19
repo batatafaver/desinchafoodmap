@@ -43,7 +43,7 @@ export default function Benefits() {
               alt={benefitsWomanImage.description}
               width={500}
               height={300}
-              className="rounded-lg shadow-lg object-cover"
+              className="rounded-lg shadow-lg object-contain"
               data-ai-hint={benefitsWomanImage.imageHint}
             />
           </div>
