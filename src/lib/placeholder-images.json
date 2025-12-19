@@ -73,6 +73,12 @@
       "imageHint": "testimonial photo"
     },
     {
+      "id": "result-2-photo",
+      "description": "Foto do segundo depoimento",
+      "imageUrl": "https://i.postimg.cc/QxtSkPMd/Whats-App-Image-2025-09-26-at-11-52-36-(1).jpg",
+      "imageHint": "testimonial photo"
+    },
+    {
       "id": "result-2",
       "description": "Imagem de resultado 2",
       "imageUrl": "https://i.postimg.cc/yYFQ3Y9J/Whats-App-Image-2025-12-16-at-15-24-11.jpg",

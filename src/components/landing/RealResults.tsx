@@ -18,6 +18,7 @@ const results = [
     id: 'result-2',
     description: '“Me sinto muito mais leve e com energia. O protocolo foi um divisor de águas para mim.”',
     author: 'Mariana S., Belo Horizonte',
+    imageId: 'result-2-photo',
   },
   {
     id: 'result-3',
@@ -32,8 +33,6 @@ const results = [
 ];
 
 export default function RealResults() {
-  const result1Image = PlaceHolderImages.find(p => p.id === 'result-1-photo');
-
   return (
     <section className="w-full bg-background py-8 sm:py-12">
       <div className="container mx-auto max-w-5xl px-4">
