@@ -1,8 +1,6 @@
 'use client';
 
-import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart, Star } from 'lucide-react';
 
@@ -42,40 +40,23 @@ export default function RealResults() {
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {results.map((result) => {
-            const image = PlaceHolderImages.find(p => p.id === result.id);
-            return (
-              <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg">
-                <CardContent className="p-0">
-                  {image && (
-                    <div className="overflow-hidden">
-                       <Image
-                        src={image.imageUrl}
-                        alt={`Resultado de ${result.author}`}
-                        width={600}
-                        height={800}
-                        className="w-full h-auto object-contain"
-                        data-ai-hint={image.imageHint}
-                      />
-                    </div>
-                  )}
-                  <div className="p-6">
-                    <div className="flex text-yellow-500">
-                      <Star className="h-5 w-5 fill-current" />
-                      <Star className="h-5 w-5 fill-current" />
-                      <Star className="h-5 w-5 fill-current" />
-                      <Star className="h-5 w-5 fill-current" />
-                      <Star className="h-5 w-5 fill-current" />
-                    </div>
-                    <blockquote className="mt-2 text-lg text-foreground/90">
-                      {result.description}
-                    </blockquote>
-                    <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
+          {results.map((result) => (
+              <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg flex flex-col">
+                <CardContent className="p-6 flex flex-col flex-grow">
+                  <div className="flex text-yellow-500">
+                    <Star className="h-5 w-5 fill-current" />
+                    <Star className="h-5 w-5 fill-current" />
+                    <Star className="h-5 w-5 fill-current" />
+                    <Star className="h-5 w-5 fill-current" />
+                    <Star className="h-5 w-5 fill-current" />
                   </div>
+                  <blockquote className="mt-2 text-lg text-foreground/90 flex-grow">
+                    {result.description}
+                  </blockquote>
+                  <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
                 </CardContent>
               </Card>
-            );
-          })}
+            ))}
         </div>
         <div className="mt-8 text-center">
             <Button asChild size="lg" className="w-full max-w-md text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90">
