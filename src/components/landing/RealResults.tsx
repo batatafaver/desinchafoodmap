@@ -24,6 +24,7 @@ const results = [
     id: 'result-3',
     description: '“Nunca imaginei que fosse possível me livrar do inchaço tão rápido. O protocolo é simples e direto ao ponto. Minha disposição é outra!”',
     author: 'Gabriela F., Porto Alegre',
+    imageId: 'result-3-photo',
   },
   {
     id: 'result-4',
