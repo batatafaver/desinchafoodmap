@@ -78,7 +78,7 @@ export default function RealResults() {
           })}
         </div>
         <div className="mt-8 text-center">
-            <Button asChild size="lg" className="text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90">
+            <Button asChild size="lg" className="w-full max-w-md text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90">
                 <a href="https://pay.kiwify.com.br/XfjVRJl">
                     <ShoppingCart className="mr-2 h-5 w-5" />
                     EU QUERO ESSE RESULTADO TAMBÉM!
