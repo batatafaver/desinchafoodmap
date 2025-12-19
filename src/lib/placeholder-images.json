@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "main-logo",
+      "description": "Logo Principal Protocolo Desincha",
+      "imageUrl": "https://i.postimg.cc/d1qkG1G2/logo.png",
+      "imageHint": "company logo"
+    },
+    {
       "id": "nutri-batata",
       "description": "Foto do criador",
       "imageUrl": "https://i.postimg.cc/nVwmm3hB/Whats-App-Image-2025-11-08-at-19-15-30-1.jpg",
