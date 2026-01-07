@@ -34,7 +34,6 @@ const bonuses = [
 
 
 export default function WhatsInside() {
-  const logoImage = PlaceHolderImages.find(p => p.id === 'main-logo');
 
   return (
     <section id="conteudo" className="w-full bg-secondary/30 py-12 sm:py-16">
@@ -44,19 +43,6 @@ export default function WhatsInside() {
             O Protocolo Completo Para Sua <span className="text-primary">Transformação</span>
           </h2>
           
-          {logoImage && (
-            <div className="flex justify-start my-4">
-              <Image
-                src={logoImage.imageUrl}
-                alt={logoImage.description}
-                width={200}
-                height={100}
-                className="object-contain"
-                data-ai-hint={logoImage.imageHint}
-              />
-            </div>
-          )}
-
           <p className="mt-4 text-lg text-foreground/70">
             Você recebe ACESSO IMEDIATO a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo simples, sem erro, sem achismo e sem enrolação.
           </p>
