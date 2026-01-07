@@ -18,7 +18,7 @@ export default function Hero() {
           <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
             O protocolo validado para mulheres de SACO CHEIO de se sentir estufada, com gases e sem confiança para usar as próprias roupas.
           </p>
-          <Button asChild size="lg" className="mt-8 w-full max-w-md text-lg animate-pulse">
+          <Button asChild size="lg" className="mt-8 w-full max-w-md text-lg animate-pulse" variant="default">
             <a href="https://pay.kiwify.com.br/XfjVRJl">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO MEU PROTOCOLO AGORA!

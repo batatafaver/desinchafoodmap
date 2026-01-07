@@ -81,7 +81,7 @@ export default function RealResults() {
           })}
         </div>
         <div className="mt-8 text-center">
-            <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse">
+            <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
                 <a href="https://pay.kiwify.com.br/XfjVRJl">
                     <ShoppingCart className="mr-2 h-5 w-5" />
                     QUERO MEU PROTOCOLO AGORA!

@@ -1,9 +1,6 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Leaf } from 'lucide-react';
 
 export default function LandingFooter() {
 

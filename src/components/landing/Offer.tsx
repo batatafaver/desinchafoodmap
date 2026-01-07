@@ -39,7 +39,7 @@ export default function Offer() {
               <p className="font-bold text-foreground/80">ou R$37 à vista</p>
               <p className="mt-2 text-sm text-foreground/70">👉 Menos que um café pra parar de odiar a própria barriga ☕🖕</p>
             </div>
-            <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse">
+            <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
               <a href="https://pay.kiwify.com.br/XfjVRJl">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO MEU PROTOCOLO AGORA!
