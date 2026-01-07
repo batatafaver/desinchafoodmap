@@ -71,7 +71,7 @@ export default function WhatsInside() {
            <Button asChild size="lg" className="mt-8 w-full text-base md:text-lg bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse">
             <a href="https://pay.kiwify.com.br/XfjVRJl">
               <ShoppingCart className="mr-2 h-5 w-5" />
-              QUERO MEU ACESSO COMPLETO AGORA!
+              QUERO MEU PROTOCOLO AGORA!
             </a>
           </Button>
         </div>

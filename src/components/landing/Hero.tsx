@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Check, ShieldCheck, Star } from 'lucide-react';
+import { Check, ShieldCheck, Star, ShoppingCart } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const LeafIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -41,7 +41,10 @@ export default function Hero() {
             O protocolo validado para mulheres de SACO CHEIO de se sentir estufada, com gases e sem confiança para usar as próprias roupas.
           </p>
           <Button asChild size="lg" className="mt-8 w-full max-w-md text-base md:w-auto md:text-lg bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse">
-            <a href="https://pay.kiwify.com.br/XfjVRJl">QUERO A BARRIGA LISA EM 7 DIAS</a>
+            <a href="https://pay.kiwify.com.br/XfjVRJl">
+                <ShoppingCart className="mr-2 h-5 w-5" />
+                QUERO MEU PROTOCOLO AGORA!
+            </a>
           </Button>
           <div className="mt-4 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-6">
             <div className="flex items-center gap-2 text-sm text-foreground/70">
