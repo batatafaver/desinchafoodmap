@@ -15,25 +15,12 @@ const LeafIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 
 export default function Hero() {
-  const logoImage = PlaceHolderImages.find(p => p.id === 'main-logo');
 
   return (
     <section id="inicio" className="w-full bg-background pt-8 pb-12">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-6 px-4">
         <div className="text-center">
-          {logoImage && (
-            <div className="flex justify-center mb-6">
-              <Image
-                src={logoImage.imageUrl}
-                alt={logoImage.description}
-                width={300}
-                height={150}
-                className="object-contain"
-                data-ai-hint={logoImage.imageHint}
-                priority
-              />
-            </div>
-          )}
+          
           <h1 className="font-headline text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
             Chega de Sofrer com Inchaço! Conquiste a <span className="text-primary">Barriga Lisa</span> que Você Merece em <span className="text-primary">APENAS 7 DIAS</span>.
           </h1>
