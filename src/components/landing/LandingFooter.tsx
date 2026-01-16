@@ -1,14 +1,28 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function LandingFooter() {
+  const logoImage = PlaceHolderImages.find(p => p.id === 'main-logo');
 
   return (
     <footer className="w-full bg-secondary/30">
       <div className="container mx-auto max-w-7xl px-4 py-8">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-          <p className="font-headline text-lg font-bold">Protocolo Desincha</p>
+          {logoImage ? (
+            <Image
+              src={logoImage.imageUrl}
+              alt={logoImage.description}
+              width={150}
+              height={75}
+              className="object-contain"
+              data-ai-hint={logoImage.imageHint}
+            />
+          ) : (
+            <div />
+          )}
           <div className="flex gap-4 text-sm">
             <Link href="#" className="text-foreground/70 hover:text-primary">Política de Privacidade</Link>
             <Link href="#" className="text-foreground/70 hover:text-primary">Termos de Uso</Link>
