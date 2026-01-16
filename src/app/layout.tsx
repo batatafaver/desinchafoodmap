@@ -29,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning className={`${inter.variable} ${montserrat.variable}`}>
       <head>
+        <meta name="facebook-domain-verification" content="trw9993tg29qixcviyyjabqv4cypox" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <Script id="clarity-pixel" strategy="afterInteractive">
