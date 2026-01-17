@@ -33,7 +33,7 @@ export default function Hero() {
             O protocolo validado para mulheres de SACO CHEIO de se sentir estufada, com gases e sem confiança para usar as próprias roupas.
           </p>
           <Link href="#comprar">
-            <Button size="lg" className="mt-8 w-full max-w-md text-lg" variant="default">
+            <Button size="lg" className="mt-8 w-full max-w-md text-base md:text-lg px-6 md:px-8" variant="default">
               <ShoppingCart className="mr-2 h-5 w-5" />
               QUERO MEU PROTOCOLO AGORA!
             </Button>

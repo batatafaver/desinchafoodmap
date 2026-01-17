@@ -56,7 +56,7 @@ export default function WhatsInside() {
             ))}
           </ul>
            <Link href="#comprar">
-            <Button size="lg" className="mt-8 w-full text-lg animate-pulse" variant="default">
+            <Button size="lg" className="mt-8 w-full text-base md:text-lg px-6 md:px-8 animate-pulse" variant="default">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO MEU PROTOCOLO AGORA!
             </Button>

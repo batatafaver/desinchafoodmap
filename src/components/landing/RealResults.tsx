@@ -83,7 +83,7 @@ export default function RealResults() {
         </div>
         <div className="mt-8 text-center">
             <Link href="#comprar">
-                <Button size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
+                <Button size="lg" className="w-full max-w-md text-base md:text-lg px-6 md:px-8 animate-pulse" variant="default">
                     <ShoppingCart className="mr-2 h-5 w-5" />
                     QUERO MEU PROTOCOLO AGORA!
                 </Button>
