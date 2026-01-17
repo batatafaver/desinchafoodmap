@@ -40,7 +40,7 @@ export default function Offer() {
               <p className="mt-2 text-sm text-foreground/70">👉 Menos que um café pra parar de odiar a própria barriga ☕🖕</p>
             </div>
             <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
-              <a href="https://pay.kiwify.com.br/XfjVRJl">
+              <a href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO MEU PROTOCOLO AGORA!
               </a>

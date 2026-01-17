@@ -55,7 +55,7 @@ export default function WhatsInside() {
             ))}
           </ul>
            <Button asChild size="lg" className="mt-8 w-full text-lg animate-pulse" variant="default">
-            <a href="https://pay.kiwify.com.br/XfjVRJl">
+            <a href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap">
               <ShoppingCart className="mr-2 h-5 w-5" />
               QUERO MEU PROTOCOLO AGORA!
             </a>
