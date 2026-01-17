@@ -81,11 +81,9 @@ export default function RealResults() {
           })}
         </div>
         <div className="mt-8 text-center">
-            <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
-                <a href="#comprar">
-                    <ShoppingCart className="mr-2 h-5 w-5" />
-                    QUERO MEU PROTOCOLO AGORA!
-                </a>
+            <Button size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
+                <ShoppingCart className="mr-2 h-5 w-5" />
+                QUERO MEU PROTOCOLO AGORA!
             </Button>
         </div>
       </div>
