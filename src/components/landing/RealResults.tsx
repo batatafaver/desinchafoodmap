@@ -82,7 +82,7 @@ export default function RealResults() {
         </div>
         <div className="mt-8 text-center">
             <Button asChild size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
-                <a href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap">
+                <a href="#comprar">
                     <ShoppingCart className="mr-2 h-5 w-5" />
                     QUERO MEU PROTOCOLO AGORA!
                 </a>
