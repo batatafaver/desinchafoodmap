@@ -41,7 +41,7 @@ export default function Offer() {
               <p className="mt-2 text-sm text-foreground/70">👉 Menos que um café pra parar de odiar a própria barriga ☕🖕</p>
             </div>
             <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
-              <Button size="lg" className="w-full max-w-md text-base md:text-lg px-6 md:px-8 animate-pulse" variant="default">
+              <Button size="lg" className="w-full max-w-md animate-pulse px-6 text-base sm:px-8 sm:text-lg" variant="default">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO MEU PROTOCOLO AGORA!
               </Button>
