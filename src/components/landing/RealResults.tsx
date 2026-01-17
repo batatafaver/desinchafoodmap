@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { ShoppingCart, Star } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import Link from 'next/link';
 
 
 const results = [
@@ -81,10 +82,12 @@ export default function RealResults() {
           })}
         </div>
         <div className="mt-8 text-center">
-            <Button size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
-                <ShoppingCart className="mr-2 h-5 w-5" />
-                QUERO MEU PROTOCOLO AGORA!
-            </Button>
+            <Link href="#comprar">
+                <Button size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
+                    <ShoppingCart className="mr-2 h-5 w-5" />
+                    QUERO MEU PROTOCOLO AGORA!
+                </Button>
+            </Link>
         </div>
       </div>
     </section>

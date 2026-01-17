@@ -6,6 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import Link from 'next/link';
 
 const contentItems = [
   'Guia de Alimentos: O que comer e o que evitar (de forma simples!).',
@@ -54,10 +55,12 @@ export default function WhatsInside() {
               </li>
             ))}
           </ul>
-           <Button size="lg" className="mt-8 w-full text-lg animate-pulse" variant="default">
-              <ShoppingCart className="mr-2 h-5 w-5" />
-              QUERO MEU PROTOCOLO AGORA!
-          </Button>
+           <Link href="#comprar">
+            <Button size="lg" className="mt-8 w-full text-lg animate-pulse" variant="default">
+                <ShoppingCart className="mr-2 h-5 w-5" />
+                QUERO MEU PROTOCOLO AGORA!
+            </Button>
+           </Link>
         </div>
 
         <div className="flex flex-col gap-4">

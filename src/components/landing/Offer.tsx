@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Check, ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Offer() {
   return (
@@ -39,10 +40,12 @@ export default function Offer() {
               <p className="font-bold text-foreground/80">ou R$37 à vista</p>
               <p className="mt-2 text-sm text-foreground/70">👉 Menos que um café pra parar de odiar a própria barriga ☕🖕</p>
             </div>
-            <Button size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
-              <ShoppingCart className="mr-2 h-5 w-5" />
-              QUERO MEU PROTOCOLO AGORA!
-            </Button>
+            <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
+              <Button size="lg" className="w-full max-w-md text-lg animate-pulse" variant="default">
+                <ShoppingCart className="mr-2 h-5 w-5" />
+                QUERO MEU PROTOCOLO AGORA!
+              </Button>
+            </Link>
             <div className="mt-4 flex items-center justify-center gap-2 text-sm text-yellow-600">
                 <p className="text-center">
                   <span className="font-bold">⚠️ ATENÇÃO:</span> Esse valor é promocional e <span className="font-bold">PODE AUMENTAR A QUALQUER MOMENTO</span>.
