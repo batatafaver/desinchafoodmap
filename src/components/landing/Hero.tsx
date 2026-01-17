@@ -35,7 +35,7 @@ export default function Hero() {
           <Link href="#comprar">
             <Button size="lg" className="mt-8 w-full max-w-md text-lg" variant="default">
               <ShoppingCart className="mr-2 h-5 w-5" />
-              QUERO O PROTOCOLO E OS BÔNUS
+              QUERO MEU PROTOCOLO AGORA!
             </Button>
           </Link>
           <div className="mt-4 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-6">
