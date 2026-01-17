@@ -32,6 +32,9 @@ export default function RootLayout({
         <meta name="facebook-domain-verification" content="trw9993tg29qixcviyyjabqv4cypox" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
+        <link rel="preconnect" href="https://www.facebook.com" />
+        <link rel="preconnect" href="https://www.clarity.ms" />
         <Script id="clarity-pixel" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){

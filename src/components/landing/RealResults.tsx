@@ -60,6 +60,7 @@ export default function RealResults() {
                         alt={image.description}
                         width={400}
                         height={400}
+                        sizes="(max-width: 768px) 90vw, 45vw"
                         className="rounded-lg object-contain w-full h-auto"
                         data-ai-hint={image.imageHint}
                       />

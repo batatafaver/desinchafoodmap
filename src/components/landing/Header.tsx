@@ -6,17 +6,18 @@ export default function Header() {
   const [timeLeft, setTimeLeft] = useState(5 * 60);
 
   useEffect(() => {
-    // This effect should only run on the client
-    if (typeof window === 'undefined') return;
-
-    if (timeLeft <= 0) return;
-
     const timer = setInterval(() => {
-      setTimeLeft((prevTime) => (prevTime > 0 ? prevTime - 1 : 0));
+      setTimeLeft((prevTime) => {
+        if (prevTime <= 1) {
+          clearInterval(timer);
+          return 0;
+        }
+        return prevTime - 1;
+      });
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft]);
+  }, []);
 
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
