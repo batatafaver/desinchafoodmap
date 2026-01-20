@@ -35,9 +35,8 @@ export default function Offer() {
             </ul>
 
             <div className="my-8">
-              <p className="text-lg text-foreground/60">De <span className="line-through">R$197</span> por apenas 12x de</p>
-              <p className="font-headline text-7xl font-bold text-primary">R$3,60</p>
-              <p className="font-bold text-foreground/80">ou R$37 à vista</p>
+              <p className="text-lg text-foreground/60">De <span className="line-through">R$197</span> por apenas</p>
+              <p className="font-headline text-6xl font-bold text-primary">R$37 à vista</p>
               <p className="mt-2 text-sm text-foreground/70">👉 Menos que um café pra parar de odiar a própria barriga ☕🖕</p>
             </div>
             <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
