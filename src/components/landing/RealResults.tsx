@@ -58,8 +58,8 @@ export default function RealResults() {
                       <Image
                         src={image.imageUrl}
                         alt={image.description}
-                        width={400}
-                        height={400}
+                        width={300}
+                        height={300}
                         sizes="(max-width: 768px) 90vw, 45vw"
                         className="rounded-lg object-contain w-full h-auto"
                         data-ai-hint={image.imageHint}
@@ -84,8 +84,8 @@ export default function RealResults() {
         </div>
         <div className="mt-8 text-center">
             <Link href="#comprar">
-                <Button size="lg" className="w-full max-w-md text-base md:text-lg px-6 md:px-8 animate-pulse" variant="default">
-                    <ShoppingCart className="mr-2 h-5 w-5" />
+                <Button size="lg" className="w-full max-w-md text-base md:text-lg px-4 sm:px-8" variant="default">
+                    <ShoppingCart className="mr-2 h-4 w-4" />
                     QUERO MEU PROTOCOLO AGORA!
                 </Button>
             </Link>
