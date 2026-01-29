@@ -4,11 +4,11 @@ import { Check, X } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const forYou = [
-    'Está de SACO CHEIO de se sentir estufada, com a barriga dolorida depois de comer.',
-    'Morre de vontade de usar roupa justa, mas vive com medo da "barriga de grávida".',
-    'Quer uma solução RÁPIDA, PRÁTICA e que não te faça passar fome.',
-    'Cansou de comer com culpa e quer entender seu corpo pra viver em paz com a comida.',
-    'Sente que o inchaço está sugando sua energia, sua confiança e sua autoestima.',
+    'Barriga visivelmente menos inchada',
+    'Menos gases e desconforto após as refeições',
+    'Sensação de leveza ao longo do dia',
+    'Roupas vestindo melhor, sem apertar na região abdominal',
+    'Mais conforto no corpo e no espelho',
 ];
 
 const notForYou = [
@@ -32,7 +32,7 @@ export default function ForWhom() {
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-primary flex items-center gap-2">
                         <Check className="h-7 w-7 text-green-500"/>
-                        SIM, isso é pra você se...
+                        O que você conquista:
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
