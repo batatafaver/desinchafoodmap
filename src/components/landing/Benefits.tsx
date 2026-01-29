@@ -13,7 +13,7 @@ export default function Benefits() {
           Imagine a vida <span className="text-primary">sem o inchaço</span> te controlando
         </h2>
         <p className="mt-4 text-lg text-foreground/70">
-          O protocolo validado para mulheres de SACO CHEIO de se sentir estufada, com gases e sem confiança para usar as próprias roupas.
+          O <span className="font-bold text-accent">protocolo validado</span> para mulheres de <span className="font-bold text-accent">SACO CHEIO</span> de se sentir estufada, com gases e sem confiança para usar as próprias roupas.
         </p>
 
         {benefitsWomanImage && (

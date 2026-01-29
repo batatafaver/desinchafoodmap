@@ -4,19 +4,19 @@ import { Check, X } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const forYou = [
-    'Barriga visivelmente menos inchada',
-    'Menos gases e desconforto após as refeições',
-    'Sensação de leveza ao longo do dia',
+    'Barriga <span class="font-bold text-accent">visivelmente menos inchada</span>',
+    '<span class="font-bold text-accent">Menos gases e desconforto</span> após as refeições',
+    'Sensação de <span class="font-bold text-accent">leveza</span> ao longo do dia',
     'Roupas vestindo melhor, sem apertar na região abdominal',
-    'Mais conforto no corpo e no espelho',
+    'Mais <span class="font-bold text-accent">conforto no corpo e no espelho</span>',
 ];
 
 const notForYou = [
     'Cortar comida aleatoriamente achando que o problema é “excesso”',
-    'Viver tomando chá, pílula ou solução milagrosa',
+    'Viver tomando chá, pílula ou <span class="font-bold text-accent">solução milagrosa</span>',
     'Fazer exercício infinito esperando desinchar a barriga',
-    'Ignorar os gatilhos internos que causam o inchaço',
-    'Tratar inchaço como gordura',
+    'Ignorar os <span class="font-bold text-accent">gatilhos internos</span> que causam o inchaço',
+    '<span class="font-bold text-accent">Tratar inchaço como gordura</span>',
 ];
 
 export default function ForWhom() {
@@ -25,7 +25,7 @@ export default function ForWhom() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Que Você Pode Esperar em Apenas 7 Dias Aplicando o <span className="text-primary">Protocolo Desincha</span>
+            O Que Você Pode Esperar em <span className="font-bold text-accent">Apenas 7 Dias</span> Aplicando o <span className="text-primary">Protocolo Desincha</span>
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -41,7 +41,7 @@ export default function ForWhom() {
                         {forYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
                                 <Check className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
-                                <span className="font-medium">{item}</span>
+                                <span className="font-medium" dangerouslySetInnerHTML={{ __html: item }}></span>
                             </li>
                         ))}
                     </ul>
@@ -59,7 +59,7 @@ export default function ForWhom() {
                         {notForYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
                                 <X className="mt-1 h-5 w-5 flex-shrink-0 text-red-500" />
-                                <span>{item}</span>
+                                <span dangerouslySetInnerHTML={{ __html: item }}></span>
                             </li>
                         ))}
                     </ul>

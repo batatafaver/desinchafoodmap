@@ -18,19 +18,19 @@ const testimonials = [
     id: 'testimonial-1',
     name: 'Camila R.',
     location: 'São Paulo, SP',
-    comment: '“Em 5 dias meu inchaço sumiu! Foi incrível ver o resultado tão rápido. Super recomendo!”',
+    comment: '“Em <span class="font-bold text-accent">5 dias meu inchaço sumiu!</span> Foi incrível ver o resultado tão rápido. Super recomendo!”',
   },
   {
     id: 'testimonial-2',
     name: 'Fernanda L.',
     location: 'Curitiba, PR',
-    comment: '“Finalmente um método que funciona sem precisar passar fome. Me sinto mais leve e disposta.”',
+    comment: '“Finalmente um <span class="font-bold text-accent">método que funciona</span> sem precisar passar fome. Me sinto mais leve e disposta.”',
   },
   {
     id: 'testimonial-3',
     name: 'Ana P.',
     location: 'Salvador, BA',
-    comment: '“Achei que era normal viver inchada. O eBook mudou minha relação com a comida. Valeu muito a pena!”',
+    comment: '“Achei que era normal viver inchada. O eBook <span class="font-bold text-accent">mudou minha relação com a comida</span>. Valeu muito a pena!”',
   },
 ];
 
@@ -40,7 +40,7 @@ export default function SocialProof() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Mais de <span className="text-primary">1.387 pessoas</span> já estão desinchando
+            Mais de <span className="text-primary">1.387 pessoas</span> já estão <span className="font-bold text-accent">desinchando</span>
           </h2>
           <p className="mt-4 text-lg text-foreground/70">
             Veja o que nossos clientes estão dizendo sobre o protocolo.
@@ -80,7 +80,7 @@ export default function SocialProof() {
                           <Star className="h-4 w-4 fill-current" />
                           <Star className="h-4 w-4 fill-current" />
                         </div>
-                        <p className="italic text-foreground/80 flex-grow">{testimonial.comment}</p>
+                        <p className="italic text-foreground/80 flex-grow" dangerouslySetInnerHTML={{ __html: testimonial.comment }}></p>
                       </CardContent>
                     </Card>
                   </div>

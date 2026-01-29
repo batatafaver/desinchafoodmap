@@ -9,10 +9,10 @@ import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 
 const contentItems = [
-  'Guia de Alimentos: O que comer e o que evitar (de forma simples!).',
-  '+50 Receitas rápidas, deliciosas e anti-inchaço (café, almoço e jantar).',
-  'Lista de Compras Pronta para você não perder tempo no mercado.',
-  'O plano exato para reintroduzir alimentos e nunca mais sofrer.',
+  'Guia de Alimentos: <span class="font-bold text-accent">O que comer e o que evitar</span> (de forma simples!).',
+  '<span class="font-bold text-accent">+50 Receitas</span> rápidas, deliciosas e anti-inchaço (café, almoço e jantar).',
+  '<span class="font-bold text-accent">Lista de Compras Pronta</span> para você não perder tempo no mercado.',
+  'O plano exato para reintroduzir alimentos e <span class="font-bold text-accent">nunca mais sofrer</span>.',
 ];
 
 const bonuses = [
@@ -45,20 +45,20 @@ export default function WhatsInside() {
           </h2>
           
           <p className="mt-4 text-lg text-foreground/70">
-            Você recebe ACESSO IMEDIATO a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo simples, sem erro, sem achismo e sem enrolação.
+            Você recebe <span className="font-bold text-accent">ACESSO IMEDIATO</span> a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo <span className="font-bold text-accent">simples, sem erro, sem achismo e sem enrolação.</span>
           </p>
           <ul className="mt-8 space-y-4">
             {contentItems.map((item, index) => (
               <li key={index} className="flex items-start gap-3">
                 <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-accent" />
-                <span className="font-semibold">{item}</span>
+                <span className="font-semibold" dangerouslySetInnerHTML={{ __html: item }}></span>
               </li>
             ))}
           </ul>
         </div>
 
         <div className="flex flex-col gap-4">
-            <h3 className="font-headline text-2xl font-bold text-center">E ainda, <span className="text-primary">3 Bônus Exclusivos</span> (só hoje):</h3>
+            <h3 className="font-headline text-2xl font-bold text-center">E ainda, <span className="text-primary">3 Bônus Exclusivos</span> (<span className="font-bold text-accent">só hoje</span>):</h3>
             {bonuses.map((bonus) => {
                  const image = PlaceHolderImages.find(p => p.id === bonus.id);
                  return (
@@ -92,7 +92,7 @@ export default function WhatsInside() {
                     <p className="font-bold text-green-800">
                         Valor total dos bônus: <span className="line-through">R$181,00</span>
                     </p>
-                    <p className="font-headline text-xl text-green-900">Hoje saem de GRAÇA para você!</p>
+                    <p className="font-headline text-xl text-green-900">Hoje saem de <span className="font-bold">GRAÇA</span> para você!</p>
                 </CardContent>
             </Card>
         </div>
