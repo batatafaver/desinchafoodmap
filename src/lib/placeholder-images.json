@@ -107,6 +107,60 @@
       "description": "Foto do quarto depoimento",
       "imageUrl": "https://i.postimg.cc/pVcxZmHk/Antes-e-Depois-LPF-23.png",
       "imageHint": "testimonial photo"
+    },
+    {
+      "id": "new-result-1",
+      "description": "Depoimento de resultado real 1",
+      "imageUrl": "https://i.postimg.cc/1XHWdgW8/Whats-App-Image-2026-01-28-at-14-17-25.jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-2",
+      "description": "Depoimento de resultado real 2",
+      "imageUrl": "https://i.postimg.cc/tJ5rc1rC/Whats-App-Image-2026-01-28-at-14-17-25-(1).jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-3",
+      "description": "Depoimento de resultado real 3",
+      "imageUrl": "https://i.postimg.cc/fyKHP3HL/Whats-App-Image-2026-01-28-at-14-17-25-(2).jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-4",
+      "description": "Depoimento de resultado real 4",
+      "imageUrl": "https://i.postimg.cc/x8RsZksj/Whats-App-Image-2026-01-28-at-14-17-25-(3).jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-5",
+      "description": "Depoimento de resultado real 5",
+      "imageUrl": "https://i.postimg.cc/Y0kn8Nx0/Whats-App-Image-2026-01-28-at-14-17-26.jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-6",
+      "description": "Depoimento de resultado real 6",
+      "imageUrl": "https://i.postimg.cc/QCs4SgqM/Whats-App-Image-2026-01-28-at-14-17-26-(1).jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-7",
+      "description": "Depoimento de resultado real 7",
+      "imageUrl": "https://i.postimg.cc/J0m6K3Qz/Whats-App-Image-2026-01-28-at-14-17-26-(2).jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-8",
+      "description": "Depoimento de resultado real 8",
+      "imageUrl": "https://i.postimg.cc/SRqTVLGS/Whats-App-Image-2026-01-28-at-14-17-26-(3).jpg",
+      "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "new-result-9",
+      "description": "Depoimento de resultado real 9",
+      "imageUrl": "https://i.postimg.cc/PJh3KbMx/Whats-App-Image-2026-01-28-at-14-17-27.jpg",
+      "imageHint": "testimonial whatsapp"
     }
   ]
 }

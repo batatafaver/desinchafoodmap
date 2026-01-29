@@ -40,6 +40,15 @@ const results = [
     author: 'Beatriz M., Recife',
     imageId: 'result-4-photo',
   },
+  { id: 'new-result-1', imageId: 'new-result-1' },
+  { id: 'new-result-2', imageId: 'new-result-2' },
+  { id: 'new-result-3', imageId: 'new-result-3' },
+  { id: 'new-result-4', imageId: 'new-result-4' },
+  { id: 'new-result-5', imageId: 'new-result-5' },
+  { id: 'new-result-6', imageId: 'new-result-6' },
+  { id: 'new-result-7', imageId: 'new-result-7' },
+  { id: 'new-result-8', imageId: 'new-result-8' },
+  { id: 'new-result-9', imageId: 'new-result-9' },
 ];
 
 export default function RealResults() {
@@ -69,18 +78,18 @@ export default function RealResults() {
           onMouseLeave={plugin.current.play}
         >
           <CarouselContent>
-            {results.map((result) => {
+            {results.map((result: any) => {
               const image = result.imageId ? PlaceHolderImages.find(p => p.id === result.imageId) : null;
               return (
                 <CarouselItem key={result.id} className="md:basis-1/2">
                    <div className="p-1 h-full">
                     <Card className="overflow-hidden rounded-lg shadow-lg flex flex-col h-full">
-                      <CardContent className="p-6 flex flex-col flex-grow">
+                      <CardContent className="p-6 flex flex-col flex-grow justify-center">
                         {image && (
                           <div className="mb-4">
                             <Image
                               src={image.imageUrl}
-                              alt={image.description}
+                              alt={image.description || `Depoimento de resultado ${result.id}`}
                               width={300}
                               height={300}
                               sizes="(max-width: 768px) 90vw, 45vw"
@@ -89,17 +98,21 @@ export default function RealResults() {
                             />
                           </div>
                         )}
-                        <div className="flex text-yellow-500">
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                          <Star className="h-5 w-5 fill-current" />
-                        </div>
-                        <blockquote className="mt-2 text-lg text-foreground/90 flex-grow">
-                          {result.description}
-                        </blockquote>
-                        <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
+                        {result.description && result.author && (
+                          <>
+                            <div className="flex text-yellow-500">
+                              <Star className="h-5 w-5 fill-current" />
+                              <Star className="h-5 w-5 fill-current" />
+                              <Star className="h-5 w-5 fill-current" />
+                              <Star className="h-5 w-5 fill-current" />
+                              <Star className="h-5 w-5 fill-current" />
+                            </div>
+                            <blockquote className="mt-2 text-lg text-foreground/90 flex-grow">
+                              {result.description}
+                            </blockquote>
+                            <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
+                          </>
+                        )}
                       </CardContent>
                     </Card>
                   </div>
