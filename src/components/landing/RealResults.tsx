@@ -41,10 +41,10 @@ export default function RealResults() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            A prova de que isso <span className="text-primary">realmente funciona</span>
+            Em apenas 7 Dias, essas mulheres <span className="text-primary">desincharam a barriga</span>
           </h2>
           <p className="mt-4 text-lg text-foreground/70">
-            Resultados REAIS de mulheres que aplicaram o protocolo e transformaram o corpo e a autoestima.
+            Resultados reais de mulheres que aplicaram o Protocolo Desincha e reduziram o inchaço abdominal sem dietas restritivas ou treinos malucos.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
