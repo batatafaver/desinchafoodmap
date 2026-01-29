@@ -1,32 +1,31 @@
 'use client';
 
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import { ShoppingCart, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import Link from 'next/link';
 
 export default function Hero() {
   const logoImage = PlaceHolderImages.find(p => p.id === 'main-logo');
   const expertImage = PlaceHolderImages.find(p => p.id === 'expert-hero-bg');
 
   return (
-    <section id="inicio" className="relative w-full bg-background pt-8 pb-12 md:py-24 overflow-hidden">
-      <div className="absolute bottom-0 right-0 h-3/4 w-full md:h-full md:w-1/2 lg:w-2/3">
-        {expertImage && (
-            <Image
-              src={expertImage.imageUrl}
-              alt={expertImage.description}
-              fill
-              className="object-cover object-top"
-              data-ai-hint={expertImage.imageHint}
-              priority
-            />
-          )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent md:bg-gradient-to-r" />
-      </div>
-      <div className="container relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-6 px-4">
-        <div className="text-center md:text-left md:max-w-lg lg:max-w-xl">
+    <section id="inicio" className="w-full bg-background pt-8 pb-12 md:py-24">
+      <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 md:grid-cols-2">
+
+        <div className="relative mx-auto h-[450px] w-full max-w-sm md:order-last md:h-[600px] md:max-w-none">
+          {expertImage && (
+              <Image
+                src={expertImage.imageUrl}
+                alt={expertImage.description}
+                fill
+                className="object-contain object-bottom"
+                data-ai-hint={expertImage.imageHint}
+                priority
+              />
+            )}
+        </div>
+
+        <div className="text-center md:text-left">
           {logoImage && (
             <div className="mb-8 flex justify-center md:justify-start">
               <Image
@@ -61,6 +60,7 @@ export default function Hero() {
             <p className="text-sm text-foreground/60">Acesso imediato e 100% seguro</p>
           </div>
         </div>
+
       </div>
     </section>
   );
