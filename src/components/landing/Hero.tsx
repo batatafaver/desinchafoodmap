@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
           )}
           <h1 className="font-headline text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
-            Chega de Sofrer com Inchaço! Conquiste a <span className="text-primary">Barriga Lisa</span> que Você Merece em <span className="text-primary">APENAS 7 DIAS</span>.
+            7 dias é tudo o que você precisa para conquistar um corpo mais leve e dizer adeus ao inchaço.
           </h1>
           <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
             O protocolo prático para mulheres de saco cheio de sofrer com inchaço. Recupere sua autoestima em 7 dias.
