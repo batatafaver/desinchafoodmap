@@ -15,22 +15,6 @@ import Autoplay from 'embla-carousel-autoplay';
 
 
 const results = [
-  {
-    id: 'result-1',
-    imageId: 'result-1-photo',
-  },
-  {
-    id: 'result-2',
-    imageId: 'result-2-photo',
-  },
-  {
-    id: 'result-3',
-    imageId: 'result-3-photo',
-  },
-  {
-    id: 'result-4',
-    imageId: 'result-4-photo',
-  },
   { id: 'new-result-1', imageId: 'new-result-1' },
   { id: 'new-result-2', imageId: 'new-result-2' },
   { id: 'new-result-3', imageId: 'new-result-3' },
@@ -75,7 +59,7 @@ export default function RealResults() {
                 <CarouselItem key={result.id} className="md:basis-1/2">
                    <div className="p-1 h-full">
                     <Card className="overflow-hidden rounded-lg shadow-lg flex flex-col h-full">
-                      <CardContent className="p-6 flex flex-col flex-grow justify-center">
+                      <CardContent className="p-0 flex flex-col flex-grow justify-center">
                         {image && (
                           <Image
                             src={image.imageUrl}

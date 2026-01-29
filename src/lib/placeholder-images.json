@@ -61,52 +61,10 @@
       "imageHint": "happy person"
     },
     {
-      "id": "result-1-photo",
-      "description": "Foto do primeiro depoimento",
-      "imageUrl": "https://i.postimg.cc/6qwZb7w5/Whats-App-Image-2025-09-26-at-11-52-35.jpg",
-      "imageHint": "testimonial photo"
-    },
-    {
-      "id": "result-2-photo",
-      "description": "Foto do segundo depoimento",
-      "imageUrl": "https://i.postimg.cc/QxtSkPMd/Whats-App-Image-2025-09-26-at-11-52-36-(1).jpg",
-      "imageHint": "testimonial photo"
-    },
-    {
-      "id": "result-3-photo",
-      "description": "Foto do terceiro depoimento",
-      "imageUrl": "https://i.postimg.cc/x8Rzw0TQ/Whats-App-Image-2025-09-26-at-11-52-36-(2).jpg",
-      "imageHint": "testimonial photo"
-    },
-    {
-      "id": "result-2",
-      "description": "Imagem de resultado 2",
-      "imageUrl": "https://i.postimg.cc/yYFQ3Y9J/Whats-App-Image-2025-12-16-at-15-24-11.jpg",
-      "imageHint": "before after"
-    },
-    {
-      "id": "result-3",
-      "description": "Imagem de resultado 3",
-      "imageUrl": "https://i.postimg.cc/bY28Mkcr/Whats-App-Image-2025-12-16-at-15-24-12-(1).jpg",
-      "imageHint": "before after"
-    },
-    {
-      "id": "result-4",
-      "description": "Imagem de resultado 4",
-      "imageUrl": "https://i.postimg.cc/4x0Br7TC/Whats-App-Image-2025-12-16-at-15-24-11-(1).jpg",
-      "imageHint": "before after"
-    },
-    {
       "id": "benefits-woman",
       "description": "Capa do produto Protocolo Desincha",
       "imageUrl": "https://i.postimg.cc/8PDvGX3c/Gemini-Generated-Image-y2ukny2ukny2ukny.png",
       "imageHint": "product cover"
-    },
-    {
-      "id": "result-4-photo",
-      "description": "Foto do quarto depoimento",
-      "imageUrl": "https://i.postimg.cc/pVcxZmHk/Antes-e-Depois-LPF-23.png",
-      "imageHint": "testimonial photo"
     },
     {
       "id": "new-result-1",
