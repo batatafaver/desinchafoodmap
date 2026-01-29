@@ -6,6 +6,13 @@ import { ShoppingCart, Star } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Link from 'next/link';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
 
 
 const results = [
@@ -47,41 +54,55 @@ export default function RealResults() {
             Resultados reais de mulheres que aplicaram o Protocolo Desincha e reduziram o inchaço abdominal sem dietas restritivas ou treinos malucos.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {results.map((result) => {
-            const image = result.imageId ? PlaceHolderImages.find(p => p.id === result.imageId) : null;
-            return (
-              <Card key={result.id} className="overflow-hidden rounded-lg shadow-lg flex flex-col">
-                <CardContent className="p-6 flex flex-col flex-grow">
-                  {image && (
-                     <div className="mb-4">
-                      <Image
-                        src={image.imageUrl}
-                        alt={image.description}
-                        width={300}
-                        height={300}
-                        sizes="(max-width: 768px) 90vw, 45vw"
-                        className="rounded-lg object-contain w-full h-auto"
-                        data-ai-hint={image.imageHint}
-                      />
-                    </div>
-                  )}
-                  <div className="flex text-yellow-500">
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
-                    <Star className="h-5 w-5 fill-current" />
+        <Carousel
+          opts={{
+            align: 'start',
+            loop: true,
+          }}
+          className="mx-auto mt-12 w-full max-w-xs sm:max-w-xl lg:max-w-2xl"
+        >
+          <CarouselContent>
+            {results.map((result) => {
+              const image = result.imageId ? PlaceHolderImages.find(p => p.id === result.imageId) : null;
+              return (
+                <CarouselItem key={result.id} className="md:basis-1/2">
+                   <div className="p-1 h-full">
+                    <Card className="overflow-hidden rounded-lg shadow-lg flex flex-col h-full">
+                      <CardContent className="p-6 flex flex-col flex-grow">
+                        {image && (
+                          <div className="mb-4">
+                            <Image
+                              src={image.imageUrl}
+                              alt={image.description}
+                              width={300}
+                              height={300}
+                              sizes="(max-width: 768px) 90vw, 45vw"
+                              className="rounded-lg object-contain w-full h-auto"
+                              data-ai-hint={image.imageHint}
+                            />
+                          </div>
+                        )}
+                        <div className="flex text-yellow-500">
+                          <Star className="h-5 w-5 fill-current" />
+                          <Star className="h-5 w-5 fill-current" />
+                          <Star className="h-5 w-5 fill-current" />
+                          <Star className="h-5 w-5 fill-current" />
+                          <Star className="h-5 w-5 fill-current" />
+                        </div>
+                        <blockquote className="mt-2 text-lg text-foreground/90 flex-grow">
+                          {result.description}
+                        </blockquote>
+                        <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
+                      </CardContent>
+                    </Card>
                   </div>
-                  <blockquote className="mt-2 text-lg text-foreground/90 flex-grow">
-                    {result.description}
-                  </blockquote>
-                  <p className="mt-4 text-right font-semibold text-accent">- {result.author}</p>
-                </CardContent>
-              </Card>
-            )
-          })}
-        </div>
+                </CarouselItem>
+              )
+            })}
+          </CarouselContent>
+          <CarouselPrevious className="hidden sm:flex" />
+          <CarouselNext className="hidden sm:flex" />
+        </Carousel>
       </div>
     </section>
   );
