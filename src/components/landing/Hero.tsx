@@ -12,7 +12,7 @@ export default function Hero() {
     <section id="inicio" className="w-full bg-background pt-8 pb-12 md:py-24">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 md:grid-cols-2">
 
-        <div className="relative mx-auto h-[450px] w-full max-w-sm md:order-last md:h-[600px] md:max-w-none">
+        <div className="relative mx-auto h-[300px] w-full max-w-xs md:order-last md:h-[450px] md:max-w-none">
           {expertImage && (
               <Image
                 src={expertImage.imageUrl}
