@@ -32,13 +32,7 @@ export default function Hero() {
           <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
             Conheça o protocolo que já ajudou milhares de mulheres a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, sem dietas ou treinos malucos.
           </p>
-          <Link href="#comprar">
-            <Button size="lg" className="mt-8 w-full max-w-md text-base md:text-lg px-4 sm:px-8" variant="default">
-              <ShoppingCart className="mr-2 h-4 w-4" />
-              QUERO MEU PROTOCOLO AGORA!
-            </Button>
-          </Link>
-          <div className="mt-4 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-6">
+          <div className="mt-8 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-6">
             <div className="flex items-center gap-2 text-sm text-foreground/70">
               <div className="flex text-yellow-500">
                 <Star className="h-5 w-5 fill-current" />

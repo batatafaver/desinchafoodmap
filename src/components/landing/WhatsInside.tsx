@@ -55,12 +55,6 @@ export default function WhatsInside() {
               </li>
             ))}
           </ul>
-           <Link href="#comprar">
-            <Button size="lg" className="mt-8 w-full text-base md:text-lg px-4 sm:px-8" variant="default">
-                <ShoppingCart className="mr-2 h-4 w-4" />
-                QUERO MEU PROTOCOLO AGORA!
-            </Button>
-           </Link>
         </div>
 
         <div className="flex flex-col gap-4">

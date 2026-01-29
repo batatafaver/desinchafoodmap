@@ -82,14 +82,6 @@ export default function RealResults() {
             )
           })}
         </div>
-        <div className="mt-8 text-center">
-            <Link href="#comprar">
-                <Button size="lg" className="w-full max-w-md text-base md:text-lg px-4 sm:px-8" variant="default">
-                    <ShoppingCart className="mr-2 h-4 w-4" />
-                    QUERO MEU PROTOCOLO AGORA!
-                </Button>
-            </Link>
-        </div>
       </div>
     </section>
   );
