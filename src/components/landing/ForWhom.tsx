@@ -12,10 +12,11 @@ const forYou = [
 ];
 
 const notForYou = [
-    'Ainda acredita em dietas malucas que só te deixam fraca, irritada e inchada.',
-    'Vive caindo no conto de chás, pílulas e "fórmulas mágicas" que prometem tudo e não entregam nada.',
-    'Acha que exercício infinito resolve um problema que começa de dentro pra fora.',
-    'Prefere continuar gastando dinheiro e tempo com soluções que claramente NÃO funcionam.',
+    'Cortar comida aleatoriamente achando que o problema é “excesso”',
+    'Viver tomando chá, pílula ou solução milagrosa',
+    'Fazer exercício infinito esperando desinchar a barriga',
+    'Ignorar os gatilhos internos que causam o inchaço',
+    'Tratar inchaço como gordura',
 ];
 
 export default function ForWhom() {
