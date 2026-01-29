@@ -30,7 +30,7 @@ export default function Hero() {
             Chega de Sofrer com Inchaço! Conquiste a <span className="text-primary">Barriga Lisa</span> que Você Merece em <span className="text-primary">APENAS 7 DIAS</span>.
           </h1>
           <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
-            O protocolo validado para mulheres de SACO CHEIO de se sentir estufada, com gases e sem confiança para usar as próprias roupas.
+            7 dias é tudo o que você precisa para conquistar um corpo mais leve e dizer adeus ao inchaço.
           </p>
           <Link href="#comprar">
             <Button size="lg" className="mt-8 w-full max-w-md text-base md:text-lg px-4 sm:px-8" variant="default">
