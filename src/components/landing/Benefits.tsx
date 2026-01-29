@@ -49,19 +49,6 @@ export default function Benefits() {
           </div>
         )}
 
-        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
-          {benefits.map((benefit, index) => (
-            <Card key={index} className="transform-gpu text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
-              <CardHeader className="items-center">
-                {benefit.icon}
-              </CardHeader>
-              <CardContent>
-                <CardTitle className="font-headline text-xl text-accent">{benefit.title}</CardTitle>
-                <p className="mt-2 text-foreground/80">{benefit.description}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
       </div>
     </section>
   );
