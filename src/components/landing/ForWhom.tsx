@@ -25,14 +25,14 @@ export default function ForWhom() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Que Você Pode Esperar em <span className="font-bold text-accent">Apenas 7 Dias</span> Aplicando o <span className="text-primary">Protocolo Desincha</span>
+            O Que Você Pode Esperar em <span className="text-primary">Apenas 7 Dias</span> Aplicando o Protocolo Desincha
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-            <Card className="border-green-500 border-2">
+            <Card className="border-accent border-2">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-primary flex items-center gap-2">
-                        <Check className="h-7 w-7 text-green-500"/>
+                        <Check className="h-7 w-7 text-accent"/>
                         O que você conquista:
                     </CardTitle>
                 </CardHeader>
@@ -40,7 +40,7 @@ export default function ForWhom() {
                     <ul className="space-y-3">
                         {forYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
-                                <Check className="mt-1 h-5 w-5 flex-shrink-0 text-green-500" />
+                                <Check className="mt-1 h-5 w-5 flex-shrink-0 text-accent" />
                                 <span className="font-medium" dangerouslySetInnerHTML={{ __html: item }}></span>
                             </li>
                         ))}

@@ -87,12 +87,12 @@ export default function WhatsInside() {
                     </Card>
                  )
             })}
-            <Card className="bg-green-100 border-green-500">
+            <Card className="bg-accent/10 border-accent">
                 <CardContent className="p-4 text-center">
-                    <p className="font-bold text-green-800">
+                    <p className="font-bold text-accent">
                         Valor total dos bônus: <span className="line-through">R$181,00</span>
                     </p>
-                    <p className="font-headline text-xl text-green-900">Hoje saem de <span className="font-bold">GRAÇA</span> para você!</p>
+                    <p className="font-headline text-xl text-accent">Hoje saem de <span className="font-bold">GRAÇA</span> para você!</p>
                 </CardContent>
             </Card>
         </div>

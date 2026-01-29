@@ -21,15 +21,15 @@ export default function Offer() {
 
              <ul className="mt-6 text-left space-y-2 text-foreground/80">
                 <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" />
+                    <Check className="h-5 w-5 mt-1 text-accent flex-shrink-0" />
                     <span><span className="font-bold text-accent">Acesso imediato</span> ao protocolo completo</span>
                 </li>
                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" />
+                    <Check className="h-5 w-5 mt-1 text-accent flex-shrink-0" />
                     <span><span className="font-bold text-accent">Comunidade fechada</span> de mulheres que NÃO ACEITAM mais sofrer</span>
                 </li>
                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" />
+                    <Check className="h-5 w-5 mt-1 text-accent flex-shrink-0" />
                     <span><span className="font-bold text-accent">Resultados visíveis em até 7 DIAS</span> (ou você vai continuar se sentindo um lixo?)</span>
                 </li>
             </ul>
