@@ -1,19 +1,19 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
-import { Inter, Montserrat } from 'next/font/google';
+import { Playfair_Display, Quicksand } from 'next/font/google';
 import Script from 'next/script';
 
-const inter = Inter({
+const quicksand = Quicksand({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-quicksand',
 });
 
-const montserrat = Montserrat({
+const playfair = Playfair_Display({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-montserrat',
+  variable: '--font-playfair-display',
 });
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning className={`${inter.variable} ${montserrat.variable}`}>
+    <html lang="pt-BR" suppressHydrationWarning className={`${quicksand.variable} ${playfair.variable}`}>
       <head>
         <meta name="facebook-domain-verification" content="trw9993tg29qixcviyyjabqv4cypox" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
