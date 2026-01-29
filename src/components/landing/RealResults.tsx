@@ -1,11 +1,10 @@
 'use client';
 
+import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { ShoppingCart, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import Link from 'next/link';
 import {
   Carousel,
   CarouselContent,
@@ -13,6 +12,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
 
 
 const results = [
@@ -43,6 +43,10 @@ const results = [
 ];
 
 export default function RealResults() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true })
+  );
+
   return (
     <section className="w-full bg-background py-8 sm:py-12">
       <div className="container mx-auto max-w-5xl px-4">
@@ -55,11 +59,14 @@ export default function RealResults() {
           </p>
         </div>
         <Carousel
+          plugins={[plugin.current]}
           opts={{
             align: 'start',
             loop: true,
           }}
           className="mx-auto mt-12 w-full max-w-xs sm:max-w-xl lg:max-w-2xl"
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.play}
         >
           <CarouselContent>
             {results.map((result) => {
