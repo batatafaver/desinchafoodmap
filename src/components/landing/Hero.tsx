@@ -26,10 +26,10 @@ export default function Hero() {
               />
             </div>
           )}
-          <h1 className="font-headline text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
+          <h1 className="font-headline text-3xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
             7 dias é tudo o que você precisa para conquistar um corpo mais leve e dizer adeus ao inchaço.
           </h1>
-          <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
+          <p className="mt-4 mx-auto max-w-2xl text-base text-foreground/80 md:text-xl">
             Conheça o protocolo que já ajudou milhares de mulheres a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, sem dietas ou treinos malucos.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-6">
