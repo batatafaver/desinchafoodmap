@@ -1,27 +1,7 @@
 'use client';
 
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Heart, UtensilsCrossed, Sparkles } from 'lucide-react';
 import Image from 'next/image';
-
-const benefits = [
-  {
-    icon: <Heart className="h-10 w-10 text-primary" />,
-    title: 'Recupere Sua Autoestima Roubada',
-    description: 'Sinta-se uma deusa para usar as roupas que você ama, sem se sentir refém da barriga marcada e do desconforto.',
-  },
-  {
-    icon: <UtensilsCrossed className="h-10 w-10 text-primary" />,
-    title: 'Faça as Pazes Com a Comida',
-    description: 'Coma sem o medo constante de passar mal, ficar com a barriga estufada ou cheia de gases. Liberte-se da culpa!',
-  },
-  {
-    icon: <Sparkles className="h-10 w-10 text-primary" />,
-    title: 'Resgate Sua Energia e Disposição',
-    description: 'Tenha mais vitalidade no seu dia, livre do peso e do cansaço que o inchaço impõe. Viva, não apenas sobreviva!',
-  },
-];
 
 export default function Benefits() {
   const benefitsWomanImage = PlaceHolderImages.find(p => p.id === 'benefits-woman');
@@ -33,7 +13,7 @@ export default function Benefits() {
           Imagine a vida <span className="text-primary">sem o inchaço</span> te controlando
         </h2>
         <p className="mt-4 text-lg text-foreground/70">
-          Não é só sobre desinchar. É sobre resgatar a mulher poderosa que o inchaço está aprisionando.
+          7 dias é tudo o que você precisa para conquistar um corpo mais leve e dizer adeus ao inchaço.
         </p>
 
         {benefitsWomanImage && (
