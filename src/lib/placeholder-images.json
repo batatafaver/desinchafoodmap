@@ -13,6 +13,12 @@
       "imageHint": "creator portrait"
     },
     {
+      "id": "expert-hero-bg",
+      "description": "Foto da especialista no hero",
+      "imageUrl": "https://i.postimg.cc/sDbHhkNV/Whats-App-Image-2025-11-08-at-19-15-30-(2).jpg",
+      "imageHint": "expert portrait"
+    },
+    {
       "id": "bonus-1",
       "description": "Bebidas Rápidas Anti-inchaço",
       "imageUrl": "https://i.postimg.cc/8stVfcY7/Chat-GPT-Image-25-11-2025-12-49-48.png",
