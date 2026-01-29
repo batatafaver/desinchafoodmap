@@ -30,7 +30,7 @@ export default function Hero() {
             7 dias é tudo o que você precisa para conquistar um corpo mais leve e dizer adeus ao inchaço.
           </h1>
           <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
-            O protocolo prático para mulheres de saco cheio de sofrer com inchaço. Recupere sua autoestima em 7 dias.
+            Conheça o protocolo que já ajudou milhares de mulheres a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, sem dietas ou treinos malucos.
           </p>
           <Link href="#comprar">
             <Button size="lg" className="mt-8 w-full max-w-md text-base md:text-lg px-4 sm:px-8" variant="default">
