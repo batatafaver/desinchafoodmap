@@ -25,13 +25,13 @@ export default function ForWhom() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Que Você Pode Esperar em <span className="text-primary">Apenas 7 Dias</span> Aplicando o Protocolo Desincha
+            O Que Você Pode Esperar em <span className="text-accent">Apenas 7 Dias</span> Aplicando o Protocolo Desincha
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
             <Card className="border-accent border-2">
                 <CardHeader>
-                    <CardTitle className="font-headline text-2xl text-primary flex items-center gap-2">
+                    <CardTitle className="font-headline text-2xl text-accent flex items-center gap-2">
                         <Check className="h-7 w-7 text-accent"/>
                         O que você conquista:
                     </CardTitle>
@@ -47,10 +47,10 @@ export default function ForWhom() {
                     </ul>
                 </CardContent>
             </Card>
-            <Card className="border-red-500 border-2">
+            <Card className="border-destructive border-2">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-destructive flex items-center gap-2">
-                        <X className="h-7 w-7 text-red-500"/>
+                        <X className="h-7 w-7 text-destructive"/>
                          AGORA, NÃO ENTRE se você...
                     </CardTitle>
                 </CardHeader>
@@ -58,7 +58,7 @@ export default function ForWhom() {
                      <ul className="space-y-3">
                         {notForYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
-                                <X className="mt-1 h-5 w-5 flex-shrink-0 text-red-500" />
+                                <X className="mt-1 h-5 w-5 flex-shrink-0 text-destructive" />
                                 <span dangerouslySetInnerHTML={{ __html: item }}></span>
                             </li>
                         ))}

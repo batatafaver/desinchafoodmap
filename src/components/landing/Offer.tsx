@@ -10,7 +10,7 @@ export default function Offer() {
   return (
     <section id="comprar" className="w-full bg-accent/10 py-8 sm:py-12">
       <div className="container mx-auto max-w-3xl px-4">
-        <Card className="shadow-2xl border-primary border-2">
+        <Card className="shadow-2xl border-accent border-2">
           <CardContent className="p-8 text-center md:p-12">
             <h2 className="text-center font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
               🚨 CHEGA DE ANDAR ESTUFADA <span className="text-accent">QUE NEM UM BALÃO</span> 🚨
@@ -36,7 +36,7 @@ export default function Offer() {
 
             <div className="my-8">
               <p className="text-lg text-foreground/60">De <span className="line-through">R$197</span> por apenas</p>
-              <p className="font-headline text-6xl font-bold text-primary">R$37,00</p>
+              <p className="font-headline text-6xl font-bold text-accent">R$37,00</p>
               <p className="text-md text-foreground/80">à vista.</p>
               <p className="mt-2 text-sm text-foreground/70">👉 <span className="font-bold text-accent">Menos que um café</span> pra parar de odiar a própria barriga ☕🖕</p>
             </div>

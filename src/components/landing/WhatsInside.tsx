@@ -41,7 +41,7 @@ export default function WhatsInside() {
       <div className="container mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 px-4 md:grid-cols-2">
         <div className="md:sticky md:top-24">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Protocolo Completo Para Sua <span className="text-primary">Transformação</span>
+            O Protocolo Completo Para Sua <span className="text-accent">Transformação</span>
           </h2>
           
           <p className="mt-4 text-lg text-foreground/70">
@@ -58,7 +58,7 @@ export default function WhatsInside() {
         </div>
 
         <div className="flex flex-col gap-4">
-            <h3 className="font-headline text-2xl font-bold text-center">E ainda, <span className="text-primary">3 Bônus Exclusivos</span> (<span className="font-bold text-accent">só hoje</span>):</h3>
+            <h3 className="font-headline text-2xl font-bold text-center">E ainda, <span className="text-accent">3 Bônus Exclusivos</span> (<span className="font-bold text-accent">só hoje</span>):</h3>
             {bonuses.map((bonus) => {
                  const image = PlaceHolderImages.find(p => p.id === bonus.id);
                  return (

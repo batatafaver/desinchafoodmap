@@ -24,8 +24,8 @@ export default function LandingFooter() {
             <div />
           )}
           <div className="flex gap-4 text-sm">
-            <Link href="#" className="text-foreground/70 hover:text-primary">Política de Privacidade</Link>
-            <Link href="#" className="text-foreground/70 hover:text-primary">Termos de Uso</Link>
+            <Link href="#" className="text-foreground/70 hover:text-accent">Política de Privacidade</Link>
+            <Link href="#" className="text-foreground/70 hover:text-accent">Termos de Uso</Link>
           </div>
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
