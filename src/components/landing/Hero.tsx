@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Check, ShieldCheck, Star, ShoppingCart } from 'lucide-react';
+import { ShoppingCart, Star } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Link from 'next/link';
 
@@ -30,7 +30,7 @@ export default function Hero() {
             Chega de Sofrer com Inchaço! Conquiste a <span className="text-primary">Barriga Lisa</span> que Você Merece em <span className="text-primary">APENAS 7 DIAS</span>.
           </h1>
           <p className="mt-4 mx-auto max-w-2xl text-lg text-foreground/80 md:text-xl">
-            7 dias é tudo o que você precisa para conquistar um corpo mais leve e dizer adeus ao inchaço.
+            O protocolo prático para mulheres de saco cheio de sofrer com inchaço. Recupere sua autoestima em 7 dias.
           </p>
           <Link href="#comprar">
             <Button size="lg" className="mt-8 w-full max-w-md text-base md:text-lg px-4 sm:px-8" variant="default">
