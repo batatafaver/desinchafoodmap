@@ -24,11 +24,8 @@ export default function ForWhom() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Este protocolo é para <span className="text-primary">você</span>? Seja honesta.
+            O Que Você Pode Esperar em Apenas 7 Dias Aplicando o <span className="text-primary">Protocolo Desincha</span>
           </h2>
-          <p className="mt-4 text-lg text-foreground/70">
-            Isto não é para todo mundo.
-          </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
             <Card className="border-green-500 border-2">
