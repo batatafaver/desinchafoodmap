@@ -47,7 +47,7 @@ export default function WhatsInside() {
             Cada etapa tem um objetivo claro e um passo a passo fácil, pra você saber exatamente o que fazer; sem achismo, sem sofrimento e sem dieta maluca.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 gap-4">
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {steps.map((step) => {
               const image = PlaceHolderImages.find(p => p.id === step.id);
               return (
