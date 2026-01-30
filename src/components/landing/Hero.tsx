@@ -1,29 +1,12 @@
 'use client';
 
-import Image from 'next/image';
 import { Star } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Hero() {
-  const logoImage = PlaceHolderImages.find(p => p.id === 'main-logo');
-
   return (
     <section id="inicio" className="w-full bg-background pt-8 pb-12 md:py-24">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4">
         <div className="text-center">
-          {logoImage && (
-            <div className="mb-8 flex justify-center">
-              <Image
-                src={logoImage.imageUrl}
-                alt={logoImage.description}
-                width={150}
-                height={75}
-                className="object-contain"
-                data-ai-hint={logoImage.imageHint}
-                priority
-              />
-            </div>
-          )}
           <h1 className="font-headline text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl">
             <span className="font-bold text-accent">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-bold text-accent">corpo mais leve</span> e dizer <span className="font-bold text-accent">adeus ao inchaço.</span>
           </h1>
