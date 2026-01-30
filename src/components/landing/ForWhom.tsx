@@ -32,7 +32,7 @@ export default function ForWhom() {
             <Card className="border-accent border-2">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-accent flex items-center gap-2">
-                        <Check className="h-7 w-7 text-accent"/>
+                        <Check className="h-7 w-7"/>
                         O que você conquista:
                     </CardTitle>
                 </CardHeader>
@@ -50,7 +50,7 @@ export default function ForWhom() {
             <Card className="border-destructive border-2">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-destructive flex items-center gap-2">
-                        <X className="h-7 w-7 text-destructive"/>
+                        <X className="h-7 w-7"/>
                          AGORA, NÃO ENTRE se você...
                     </CardTitle>
                 </CardHeader>
@@ -65,6 +65,28 @@ export default function ForWhom() {
                     </ul>
                 </CardContent>
             </Card>
+        </div>
+        <div className="mt-12 text-center">
+          <h3 className="font-headline text-2xl font-bold text-foreground sm:text-3xl">
+            O Protocolo Desincha Existe Pra Corrigir Tudo Isso
+          </h3>
+          <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
+            Ele é um protocolo simples e prático, criado para atuar no que realmente causa o inchaço abdominal, e não apenas mascarar os sintomas.
+          </p>
+          <ul className="mt-6 inline-flex flex-col items-start gap-2 text-left">
+            <li className="flex items-center gap-2 font-medium">
+              <Check className="h-5 w-5 flex-shrink-0 text-accent" />
+              <span>Sem dieta restritiva.</span>
+            </li>
+            <li className="flex items-center gap-2 font-medium">
+              <Check className="h-5 w-5 flex-shrink-0 text-accent" />
+              <span>Sem treino maluco.</span>
+            </li>
+            <li className="flex items-center gap-2 font-medium">
+              <Check className="h-5 w-5 flex-shrink-0 text-accent" />
+              <span>Sem promessas vazias.</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
