@@ -1,12 +1,28 @@
 'use client';
 
 import { Star } from 'lucide-react';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Hero() {
+  const heroMobileImage = PlaceHolderImages.find(p => p.id === 'hero-mobile-woman');
+
   return (
     <section id="inicio" className="w-full bg-[#7ed957] pt-8 pb-12 md:py-24">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4">
         <div className="text-center">
+          {heroMobileImage && (
+            <div className="mb-8 flex justify-center md:hidden">
+              <Image
+                src={heroMobileImage.imageUrl}
+                alt={heroMobileImage.description}
+                width={300}
+                height={300}
+                className="rounded-lg shadow-lg object-contain"
+                data-ai-hint={heroMobileImage.imageHint}
+              />
+            </div>
+          )}
           <h1 className="font-headline text-4xl font-extrabold tracking-tight text-black sm:text-5xl md:text-6xl">
             <span className="font-bold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-bold">corpo mais leve</span> e dizer <span className="font-bold">adeus ao inchaço.</span>
           </h1>
