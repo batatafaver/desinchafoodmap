@@ -2,8 +2,6 @@
 
 import { Puzzle, Check } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const includedContent = [
     {
@@ -29,8 +27,6 @@ const includedContent = [
 ];
 
 export default function WhatsIncluded() {
-    const productImage = PlaceHolderImages.find(p => p.id === 'benefits-woman');
-
   return (
     <section id="o-que-voce-recebe" className="w-full bg-background py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
@@ -42,18 +38,8 @@ export default function WhatsIncluded() {
 
         <div className="mt-12 space-y-10">
             <Card className="overflow-hidden border-2 border-primary/20 bg-secondary/20 shadow-lg">
-                <CardContent className="p-6 flex flex-col md:flex-row gap-8 items-center">
-                    {productImage && (
-                         <Image
-                            src={productImage.imageUrl}
-                            alt="Protocolo Desincha"
-                            width={200}
-                            height={200}
-                            className="w-48 h-auto object-contain rounded-lg"
-                            data-ai-hint={productImage.imageHint}
-                        />
-                    )}
-                    <div className="flex-1 text-center md:text-left">
+                <CardContent className="p-6">
+                    <div className="text-center">
                         <h3 className="font-headline text-2xl font-bold text-primary">Protocolo Desincha – Método Completo de 7 Dias</h3>
                         <p className="mt-2 text-base text-foreground/80">
                             O Protocolo Desincha é um método simples e estratégico, dividido em 4 Etapas Claras, pensadas para reduzir o inchaço abdominal da causa ao resultado, em apenas 7 dias.
