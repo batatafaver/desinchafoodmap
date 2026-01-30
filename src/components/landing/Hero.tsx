@@ -25,8 +25,8 @@ export default function Hero() {
         <div className="bg-[#7ed957] py-8">
           <div className="container mx-auto px-4">
             <div className="text-center text-black">
-              <h1 className="font-headline text-3xl font-extrabold tracking-tight">
-                <span className="font-bold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-bold">corpo mais leve</span> e dizer <span className="font-bold">adeus ao inchaço.</span>
+              <h1 className="font-headline text-3xl font-bold tracking-tight">
+                <span className="font-extrabold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-extrabold">corpo mais leve</span> e dizer <span className="font-extrabold">adeus ao inchaço.</span>
               </h1>
               <p className="mt-4 mx-auto max-w-2xl text-base text-black/80">
                 Conheça o protocolo que já ajudou <span className="font-bold">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold">sem dietas ou treinos malucos.</span>
@@ -53,8 +53,8 @@ export default function Hero() {
       <div className="hidden md:flex bg-[#7ed957] items-center py-24">
         <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4">
           <div className="text-center text-black">
-            <h1 className="font-headline text-5xl font-extrabold tracking-tight md:text-6xl">
-              <span className="font-bold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-bold">corpo mais leve</span> e dizer <span className="font-bold">adeus ao inchaço.</span>
+            <h1 className="font-headline text-5xl font-bold tracking-tight md:text-6xl">
+              <span className="font-extrabold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-extrabold">corpo mais leve</span> e dizer <span className="font-extrabold">adeus ao inchaço.</span>
             </h1>
             <p className="mt-4 mx-auto max-w-2xl text-xl text-black/80">
               Conheça o protocolo que já ajudou <span className="font-bold">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold">sem dietas ou treinos malucos.</span>
