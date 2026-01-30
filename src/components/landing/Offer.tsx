@@ -10,17 +10,17 @@ export default function Offer() {
     <section id="comprar" className="w-full bg-primary/10 py-8 sm:py-12">
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
-          <CardContent className="p-8 text-center md:p-12">
-            <h2 className="text-center font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
+          <CardContent className="p-6 text-center sm:p-8 md:p-12">
+            <h2 className="text-center font-headline text-xl font-extrabold tracking-tight sm:text-3xl">
               CHEGA DE ANDAR INCHADA E ESCONDENDO A BARRIGA
             </h2>
 
             <div className="mt-8 text-left">
-              <p className="flex items-center gap-2 text-base sm:text-lg font-bold text-foreground">
+              <p className="flex items-center gap-2 text-base font-bold text-foreground">
                 ✅ Ao Entrar Hoje, Você Recebe:
               </p>
 
-              <ul className="mt-6 space-y-4 text-base text-foreground/80">
+              <ul className="mt-6 space-y-4 text-sm text-foreground/80 sm:text-base">
                 <li className="flex items-start gap-3">
                   <Check className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                   <div>
@@ -74,12 +74,12 @@ export default function Offer() {
             </div>
 
             <div className="my-8">
-              <p className="text-lg text-foreground/60">De <span className="line-through">R$197,00</span> por apenas:</p>
-              <p className="font-headline text-5xl sm:text-6xl font-bold text-primary">R$37,00</p>
+              <p className="text-base text-foreground/60 sm:text-lg">De <span className="line-through">R$197,00</span> por apenas:</p>
+              <p className="font-headline text-4xl font-bold text-primary sm:text-6xl">R$37,00</p>
               <p className="text-base text-foreground/80">à vista</p>
             </div>
             <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
-              <Button size="lg" className="w-full max-w-md px-4 text-base sm:text-lg" variant="default">
+              <Button size="lg" className="w-full max-w-md px-6 text-base whitespace-normal h-auto py-3" variant="default">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO O PROTOCOLO DESINCHA AGORA
               </Button>
