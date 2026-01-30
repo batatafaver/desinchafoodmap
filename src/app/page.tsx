@@ -19,8 +19,8 @@ export default function LandingPage() {
         <RealResults />
         <ForWhom />
         <Benefits />
-        <WhatsInside />
         <SocialProof />
+        <WhatsInside />
         <Offer />
         <About />
         <GuaranteeFaq />
