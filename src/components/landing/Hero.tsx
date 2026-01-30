@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Mobile view: Image on top, then text with green background */}
       <div className="md:hidden flex flex-col">
         {heroMobileImage && (
-          <div className="relative w-full h-80">
+          <div className="relative w-full h-72">
             <Image
               src={heroMobileImage.imageUrl}
               alt="Mulher feliz com barriga lisa"
@@ -22,16 +22,16 @@ export default function Hero() {
             />
           </div>
         )}
-        <div className="bg-[#7ed957] py-12">
+        <div className="bg-[#7ed957] py-8">
           <div className="container mx-auto px-4">
             <div className="text-center text-black">
-              <h1 className="font-headline text-4xl font-extrabold tracking-tight">
+              <h1 className="font-headline text-3xl font-extrabold tracking-tight">
                 <span className="font-bold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-bold">corpo mais leve</span> e dizer <span className="font-bold">adeus ao inchaço.</span>
               </h1>
-              <p className="mt-4 mx-auto max-w-2xl text-lg text-black/80">
+              <p className="mt-4 mx-auto max-w-2xl text-base text-black/80">
                 Conheça o protocolo que já ajudou <span className="font-bold">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold">sem dietas ou treinos malucos.</span>
               </p>
-              <div className="mt-8 flex flex-col items-center justify-center gap-2">
+              <div className="mt-6 flex flex-col items-center justify-center gap-2">
                 <div className="flex items-center gap-2 text-sm">
                   <div className="flex text-yellow-400">
                     <Star className="h-5 w-5 fill-current" />
