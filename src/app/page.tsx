@@ -9,6 +9,7 @@ import GuaranteeFaq from '@/components/landing/GuaranteeFaq';
 import About from '@/components/landing/About';
 import LandingFooter from '@/components/landing/LandingFooter';
 import ForWhom from '@/components/landing/ForWhom';
+import Bonus from '@/components/landing/Bonus';
 
 export default function LandingPage() {
   return (
@@ -21,6 +22,7 @@ export default function LandingPage() {
         <Benefits />
         <SocialProof />
         <WhatsInside />
+        <Bonus />
         <Offer />
         <About />
         <GuaranteeFaq />
