@@ -24,9 +24,7 @@ export default function ForWhom() {
     <section className="w-full bg-background py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
-            O que você pode esperar em <span className="text-primary">apenas 7 dias</span> aplicando o Protocolo Desincha
-          </h2>
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'O que você pode esperar em <span class="text-primary">apenas 7 dias</span> aplicando o Protocolo Desincha' }} />
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
             <Card className="border-primary border-2">
@@ -67,12 +65,8 @@ export default function ForWhom() {
             </Card>
         </div>
         <div className="mt-12 text-center">
-          <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl">
-            O Protocolo Desincha existe para corrigir tudo isso
-          </h3>
-          <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80">
-            Ele é um protocolo simples e prático, criado para atuar no que realmente causa o inchaço abdominal, e não apenas mascarar os sintomas.
-          </p>
+          <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha existe para <span class="text-primary">corrigir tudo isso</span>' }} />
+          <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80" dangerouslySetInnerHTML={{ __html: 'Ele é um protocolo <span class="font-bold">simples e prático</span>, criado para atuar no que <span class="font-bold">realmente causa o inchaço abdominal</span>, e não apenas mascarar os sintomas.' }} />
           <ul className="mt-6 inline-flex flex-col items-start gap-2 text-left text-base">
             <li className="flex items-center gap-2 font-medium">
               <Check className="h-5 w-5 flex-shrink-0 text-primary" />

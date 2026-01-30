@@ -18,15 +18,9 @@ export default function WhatsInside() {
     <section id="conteudo" className="w-full bg-secondary/30 py-12 sm:py-16">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
-            Como funciona o Protocolo Desincha?
-          </h2>
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'Como funciona o <span class="text-primary">Protocolo Desincha?</span>' }} />
           
-          <p className="mt-4 text-base sm:text-lg text-foreground/70">
-            O Protocolo Desincha é dividido em 4 Etapas Simples e Estratégicas, criadas para atacar o inchaço abdominal da causa ao resultado, em apenas 7 dias.
-            <br /><br />
-            Cada etapa tem um objetivo claro e um passo a passo fácil, pra você saber exatamente o que fazer; sem achismo, sem sofrimento e sem dieta maluca.
-          </p>
+          <p className="mt-4 text-base sm:text-lg text-foreground/70" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha é dividido em <span class="font-bold">4 Etapas Simples e Estratégicas</span>, criadas para atacar o inchaço abdominal <span class="font-bold">da causa ao resultado, em apenas 7 dias.</span><br /><br />Cada etapa tem um <span class="font-bold">objetivo claro</span> e um passo a passo fácil, pra você saber <span class="font-bold text-primary">exatamente o que fazer</span>; sem achismo, sem sofrimento e sem dieta maluca.' }} />
         </div>
 
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -52,12 +46,8 @@ export default function WhatsInside() {
           </div>
 
           <div className="mt-12 text-center">
-            <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl">
-                O Protocolo Desincha não é uma dieta passageira.
-            </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80">
-                É um processo validado, simples e aplicável, criado para mulheres que estão cansadas de viver inchadas e querem resultado real, rápido e sustentável.
-            </p>
+            <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha <span class="font-bold text-primary">não é uma dieta passageira.</span>' }} />
+            <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80" dangerouslySetInnerHTML={{ __html: 'É um <span class="font-bold">processo validado, simples e aplicável</span>, criado para mulheres que estão cansadas de viver inchadas e querem <span class="font-bold">resultado real, rápido e sustentável.</span>' }} />
         </div>
       </div>
     </section>

@@ -6,23 +6,23 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const includedContent = [
     {
         title: 'ETAPA 1 — DESINCHAR E ALIVIAR',
-        description: 'Você aprende como reduzir rapidamente o inchaço abdominal, aliviar gases e acabar com a sensação de barriga dura e estufada logo nos primeiros dias.',
-        result: 'barriga visivelmente menos inchada e sensação imediata de leveza.',
+        description: 'Você aprende como <span class="font-bold">reduzir rapidamente o inchaço</span> abdominal, <span class="font-bold">aliviar gases</span> e acabar com a sensação de barriga dura e estufada logo nos <span class="font-bold">primeiros dias</span>.',
+        result: '<span class="font-bold">barriga visivelmente menos inchada</span> e <span class="font-bold">sensação imediata de leveza.</span>',
     },
     {
         title: 'ETAPA 2 — ALIMENTAR SEM INCHAR',
-        description: 'Um guia simples e direto mostrando exatamente quais alimentos favorecem o inchaço — e quais ajudam a reduzir.',
-        result: 'você para de cortar comida à toa e passa a comer com segurança e clareza.'
+        description: 'Um guia <span class="font-bold">simples e direto</span> mostrando <span class="font-bold text-primary">exatamente quais alimentos</span> favorecem o inchaço — e quais ajudam a reduzir.',
+        result: 'você para de cortar comida à toa e passa a <span class="font-bold">comer com segurança e clareza.</span>'
     },
     {
         title: 'ETAPA 3 — ROTINA ANTI-INCHAÇO',
-        description: 'Receitas práticas, organização simples e uma rotina fácil de seguir para aplicar o protocolo sem complicação no dia a dia.',
-        result: 'constância sem sofrimento e menos chances de desistir.'
+        description: '<span class="font-bold">Receitas práticas, organização simples</span> e uma <span class="font-bold">rotina fácil de seguir</span> para aplicar o protocolo sem complicação no dia a dia.',
+        result: '<span class="font-bold">constância sem sofrimento</span> e menos chances de desistir.'
     },
     {
         title: 'ETAPA 4 — REINTRODUÇÃO E CONTROLE',
-        description: 'Um plano claro para reintroduzir alimentos, identificar o que causa inchaço no seu corpo e manter os resultados no longo prazo.',
-        result: 'controle total do inchaço sem viver em restrição.'
+        description: 'Um <span class="font-bold">plano claro para reintroduzir alimentos</span>, identificar o que causa inchaço no seu corpo e <span class="font-bold">manter os resultados no longo prazo.</span>',
+        result: '<span class="font-bold">controle total do inchaço</span> sem viver em restrição.'
     }
 ];
 
@@ -31,9 +31,7 @@ export default function WhatsIncluded() {
     <section id="o-que-voce-recebe" className="w-full bg-background py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
-            Aqui Está Exatamente Tudo o Que Você Vai Receber ao Entrar Hoje no Protocolo Desincha.
-          </h2>
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'Aqui Está <span class="text-primary">Exatamente Tudo o Que Você Vai Receber</span> ao Entrar Hoje no Protocolo Desincha.' }}/>
         </div>
 
         <div className="mt-12 space-y-10">
@@ -41,9 +39,7 @@ export default function WhatsIncluded() {
                 <CardContent className="p-6">
                     <div className="text-center">
                         <h3 className="font-headline text-xl sm:text-2xl font-bold text-primary">Protocolo Desincha – Método Completo de 7 Dias</h3>
-                        <p className="mt-2 text-sm sm:text-base text-foreground/80">
-                            O Protocolo Desincha é um método simples e estratégico, dividido em 4 Etapas Claras, pensadas para reduzir o inchaço abdominal da causa ao resultado, em apenas 7 dias.
-                        </p>
+                        <p className="mt-2 text-sm sm:text-base text-foreground/80" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha é um método <span class="font-bold">simples e estratégico</span>, dividido em <span class="font-bold text-primary">4 Etapas Claras</span>, pensadas para reduzir o inchaço abdominal da causa ao resultado, em <span class="font-bold">apenas 7 dias.</span>' }} />
                     </div>
                 </CardContent>
             </Card>
@@ -58,10 +54,10 @@ export default function WhatsIncluded() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow flex flex-col">
-                            <p className="text-xs sm:text-sm text-foreground/80 flex-grow">{item.description}</p>
+                            <p className="text-xs sm:text-sm text-foreground/80 flex-grow" dangerouslySetInnerHTML={{ __html: item.description }}/>
                             <div className="mt-4 flex items-start gap-2 text-xs sm:text-sm text-accent">
                                 <Check className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                                <p className="font-medium"><span className="font-bold">Resultado:</span> {item.result}</p>
+                                <p className="font-medium" dangerouslySetInnerHTML={{ __html: '<span class="font-bold">Resultado:</span> ' + item.result }}/>
                             </div>
                         </CardContent>
                     </Card>

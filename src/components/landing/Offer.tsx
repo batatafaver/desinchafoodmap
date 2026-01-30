@@ -11,9 +11,7 @@ export default function Offer() {
       <div className="container mx-auto max-w-3xl px-4">
         <Card className="shadow-2xl border-primary border-2">
           <CardContent className="p-6 text-center sm:p-8 md:p-12">
-            <h2 className="text-center font-headline text-xl font-extrabold tracking-tight sm:text-3xl">
-              CHEGA DE ANDAR INCHADA E ESCONDENDO A BARRIGA
-            </h2>
+            <h2 className="text-center font-headline text-xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'CHEGA DE ANDAR <span class="text-primary">INCHADA</span> E <span class="text-primary">ESCONDENDO A BARRIGA</span>' }} />
 
             <div className="mt-8 text-left">
               <p className="flex items-center gap-2 text-base font-bold text-foreground">
@@ -25,49 +23,49 @@ export default function Offer() {
                   <Check className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                   <div>
                     <span className="font-bold text-primary">Acesso imediato ao Protocolo Desincha de 7 Dias</span>
-                    <p className="text-xs sm:text-sm">Método validado pra reduzir o inchaço abdominal e sentir o corpo mais leve já na primeira semana.</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: 'Método <span class="font-bold">validado</span> pra <span class="font-bold">reduzir o inchaço</span> abdominal e sentir o corpo mais leve já na <span class="font-bold">primeira semana.</span>' }} />
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                   <div>
                     <span className="font-bold text-primary">Método simples, sem dieta restritiva e sem treino maluco</span>
-                    <p className="text-xs sm:text-sm">Nada de passar fome, se matar de exercício ou viver cortando tudo.</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: 'Nada de <span class="font-bold">passar fome</span>, se matar de exercício ou viver <span class="font-bold">cortando tudo</span>.' }} />
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                   <div>
                     <span className="font-bold text-primary">Comunidade fechada de mulheres que não aceitam mais sofrer inchadas</span>
-                    <p className="text-xs sm:text-sm">Apoio, troca de experiências e motivação pra você não desistir no meio.</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: 'Apoio, troca de experiências e <span class="font-bold">motivação</span> pra você <span class="font-bold">não desistir no meio.</span>' }} />
                   </div>
                 </li>
                  <li className="flex items-start gap-3">
                   <Check className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                   <div>
                     <span className="font-bold text-primary">Resultados visíveis já na primeira semana</span>
-                    <p className="text-xs sm:text-sm">(Ou você continua fazendo de conta que é normal viver estufada?) 😈</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: '(Ou você continua fazendo de conta que é <span class="font-bold">normal viver estufada?</span>) 😈' }} />
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Gift className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                    <div>
                     <span className="font-bold text-primary">BÔNUS #1 – Bebidas Rápidas Anti-Inchaço</span>
-                    <p className="text-xs sm:text-sm">Receitas simples pra aliviar gases e reduzir o estufamento nos momentos mais críticos.</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: 'Receitas simples pra <span class="font-bold">aliviar gases</span> e <span class="font-bold">reduzir o estufamento</span> nos momentos mais críticos.' }} />
                   </div>
                 </li>
                  <li className="flex items-start gap-3">
                   <Gift className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                    <div>
                     <span className="font-bold text-primary">BÔNUS #2 – Guia de Substituições Inteligentes</span>
-                    <p className="text-xs sm:text-sm">Aprenda exatamente o que trocar na alimentação pra não inflamar a barriga — sem radicalismo.</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: 'Aprenda <span class="font-bold">exatamente o que trocar</span> na alimentação pra não inflamar a barriga — <span class="font-bold">sem radicalismo.</span>' }} />
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Gift className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                    <div>
                     <span className="font-bold text-primary">BÔNUS #3 – Acesso ao Grupo VIP de Alunas</span>
-                    <p className="text-xs sm:text-sm">Um grupo exclusivo pra tirar dúvidas, compartilhar resultados e manter a constância até o fim.</p>
+                    <p className="text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: 'Um grupo <span class="font-bold">exclusivo</span> pra tirar dúvidas, compartilhar resultados e <span class="font-bold">manter a constância</span> até o fim.' }} />
                   </div>
                 </li>
               </ul>

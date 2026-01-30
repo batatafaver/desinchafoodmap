@@ -34,7 +34,7 @@ export default function Bonus() {
                 <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
                 🎁 E AINDA, <span className="text-primary">3 BÔNUS EXCLUSIVOS</span> PARA ACELERAR SEUS RESULTADOS
                 </h2>
-                <p className="mt-2 text-base sm:text-lg text-foreground/80">(Disponíveis somente hoje)</p>
+                <p className="mt-2 text-base sm:text-lg text-foreground/80">(Disponíveis <span className="font-bold">somente hoje</span>)</p>
             </div>
             
             <div className="flex flex-col gap-6">
@@ -73,9 +73,7 @@ export default function Bonus() {
                     <p className="font-bold text-primary text-lg sm:text-xl">
                         💣 Valor Total dos Bônus: <span className="line-through">R$181,00</span>
                     </p>
-                    <p className="font-headline text-xl sm:text-2xl text-accent mt-2">
-                    🎯 Hoje, você recebe tudo isso de <span className="font-bold">GRAÇA</span> ao entrar no Protocolo Desincha.
-                    </p>
+                    <p className="font-headline text-xl sm:text-2xl text-accent mt-2" dangerouslySetInnerHTML={{ __html: '🎯 Hoje, você recebe tudo isso de <span class="font-bold">GRAÇA</span> ao entrar no Protocolo Desincha.' }} />
                 </CardContent>
             </Card>
         </div>

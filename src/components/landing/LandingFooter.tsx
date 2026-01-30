@@ -29,11 +29,10 @@ export default function LandingFooter() {
           </div>
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
-          <p className="text-center text-xs text-foreground/60 sm:text-left">
+          <p className="text-center text-xs text-foreground/60 sm:text-left" dangerouslySetInnerHTML={{ __html: `
             © 2025 Protocolo Desinch@ — Todos os direitos reservados.
             <br />
-            Este produto não substitui o parecer médico profissional. Sempre consulte um profissional da saúde para tratar de assuntos relativos à sua saúde. Os resultados podem variar de pessoa para pessoa.
-          </p>
+            Este produto <span class="font-bold">não substitui o parecer médico profissional.</span> <span class="font-bold">Sempre consulte um profissional da saúde</span> para tratar de assuntos relativos à sua saúde. Os resultados podem variar de pessoa para pessoa.` }} />
         </div>
       </div>
     </footer>

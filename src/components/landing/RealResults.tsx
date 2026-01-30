@@ -35,12 +35,8 @@ export default function RealResults() {
     <section className="w-full bg-background py-8 sm:py-12">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
-            Em <span className="font-bold text-accent">apenas 7 Dias</span>, essas mulheres <span className="text-accent">desincharam a barriga</span>
-          </h2>
-          <p className="mt-4 text-base text-foreground/70 sm:text-lg">
-            <span className="font-bold text-accent">Resultados reais</span> de mulheres que aplicaram o Protocolo Desincha e reduziram o inchaço abdominal sem dietas restritivas ou treinos malucos.
-          </p>
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'Em <span class="text-accent">apenas 7 Dias</span>, essas mulheres <span class="font-bold text-accent">desincharam a barriga</span>' }} />
+          <p className="mt-4 text-base text-foreground/70 sm:text-lg" dangerouslySetInnerHTML={{ __html: '<span class="font-bold text-accent">Resultados reais</span> de mulheres que aplicaram o Protocolo Desincha e <span class="font-bold">reduziram o inchaço abdominal</span> sem dietas restritivas ou treinos malucos.' }} />
         </div>
         <Carousel
           plugins={[plugin.current]}

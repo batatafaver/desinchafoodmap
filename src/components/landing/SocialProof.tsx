@@ -38,9 +38,7 @@ export default function SocialProof() {
     <section className="w-full py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
-            Quem vive comprova, logo nos primeiros dias:
-          </h2>
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'Quem <span class="text-primary">vive e comprova</span>, logo nos primeiros dias:' }} />
         </div>
         <Carousel
           opts={{
