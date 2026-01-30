@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import {
   Carousel,
   CarouselContent,
@@ -11,26 +10,26 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ShieldCheck, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 const testimonials = [
   {
     id: 'testimonial-1',
     name: 'Camila R.',
     location: 'São Paulo, SP',
-    comment: '“Em <span class="font-bold text-accent">5 dias meu inchaço sumiu!</span> Foi incrível ver o resultado tão rápido. Super recomendo!”',
+    comment: '“Em <span class="font-bold text-primary">5 dias meu inchaço sumiu!</span> Foi incrível ver o resultado tão rápido. Super recomendo!”',
   },
   {
     id: 'testimonial-2',
     name: 'Fernanda L.',
     location: 'Curitiba, PR',
-    comment: '“Finalmente um <span class="font-bold text-accent">método que funciona</span> sem precisar passar fome. Me sinto mais leve e disposta.”',
+    comment: '“Finalmente um <span class="font-bold text-primary">método que funciona</span> sem precisar passar fome. Me sinto mais leve e disposta.”',
   },
   {
     id: 'testimonial-3',
     name: 'Ana P.',
     location: 'Salvador, BA',
-    comment: '“Achei que era normal viver inchada. O eBook <span class="font-bold text-accent">mudou minha relação com a comida</span>. Valeu muito a pena!”',
+    comment: '“Achei que era normal viver inchada. O eBook <span class="font-bold text-primary">mudou minha relação com a comida</span>. Valeu muito a pena!”',
   },
 ];
 
@@ -40,7 +39,7 @@ export default function SocialProof() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            QUEM VIVE COMPROVA, LOGO NOS PRIMEIROS DIAS:
+            Quem vive comprova, logo nos primeiros dias:
           </h2>
         </div>
         <Carousel

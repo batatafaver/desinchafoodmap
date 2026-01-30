@@ -3,16 +3,13 @@
 import { CheckCircle2, Gift } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Button } from '@/components/ui/button';
-import { ShoppingCart } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-import Link from 'next/link';
 
 const contentItems = [
-  'Guia de Alimentos: <span class="font-bold text-accent">O que comer e o que evitar</span> (de forma simples!).',
-  '<span class="font-bold text-accent">+50 Receitas</span> rápidas, deliciosas e anti-inchaço (café, almoço e jantar).',
-  '<span class="font-bold text-accent">Lista de Compras Pronta</span> para você não perder tempo no mercado.',
-  'O plano exato para reintroduzir alimentos e <span class="font-bold text-accent">nunca mais sofrer</span>.',
+  'Guia de Alimentos: <span class="font-bold text-primary">O que comer e o que evitar</span> (de forma simples!).',
+  '<span class="font-bold text-primary">+50 Receitas</span> rápidas, deliciosas e anti-inchaço (café, almoço e jantar).',
+  '<span class="font-bold text-primary">Lista de Compras Pronta</span> para você não perder tempo no mercado.',
+  'O plano exato para reintroduzir alimentos e <span class="font-bold text-primary">nunca mais sofrer</span>.',
 ];
 
 const bonuses = [
@@ -41,16 +38,16 @@ export default function WhatsInside() {
       <div className="container mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 px-4 md:grid-cols-2">
         <div className="md:sticky md:top-24">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Protocolo Completo Para Sua <span className="text-accent">Transformação</span>
+            O protocolo completo para sua <span className="text-primary">transformação</span>
           </h2>
           
           <p className="mt-4 text-lg text-foreground/70">
-            Você recebe <span className="font-bold text-accent">ACESSO IMEDIATO</span> a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo <span className="font-bold text-accent">simples, sem erro, sem achismo e sem enrolação.</span>
+            Você recebe <span className="font-bold text-primary">acesso imediato</span> a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo <span className="font-bold text-primary">simples, sem erro, sem achismo e sem enrolação.</span>
           </p>
           <ul className="mt-8 space-y-4 text-base">
             {contentItems.map((item, index) => (
               <li key={index} className="flex items-start gap-3">
-                <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-accent" />
+                <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
                 <span className="font-semibold" dangerouslySetInnerHTML={{ __html: item }}></span>
               </li>
             ))}
@@ -58,7 +55,7 @@ export default function WhatsInside() {
         </div>
 
         <div className="flex flex-col gap-4">
-            <h3 className="font-headline text-2xl font-bold text-center">E ainda, <span className="text-accent">3 Bônus Exclusivos</span> (<span className="font-bold text-accent">só hoje</span>):</h3>
+            <h3 className="font-headline text-2xl font-bold text-center">E ainda, <span className="text-primary">3 Bônus Exclusivos</span> (<span className="font-bold text-primary">só hoje</span>):</h3>
             {bonuses.map((bonus) => {
                  const image = PlaceHolderImages.find(p => p.id === bonus.id);
                  return (
@@ -75,7 +72,7 @@ export default function WhatsInside() {
                                 />
                              )}
                              <div className="flex-1 text-center sm:text-left">
-                                <p className="font-bold text-accent flex items-center justify-center sm:justify-start gap-2 text-lg">
+                                <p className="font-bold text-primary flex items-center justify-center sm:justify-start gap-2 text-lg">
                                     <Gift className="h-5 w-5" />
                                     {bonus.title}
                                 </p>
@@ -87,12 +84,12 @@ export default function WhatsInside() {
                     </Card>
                  )
             })}
-            <Card className="bg-accent/10 border-accent">
+            <Card className="bg-primary/10 border-primary">
                 <CardContent className="p-4 text-center">
-                    <p className="font-bold text-accent text-base">
+                    <p className="font-bold text-primary text-base">
                         Valor total dos bônus: <span className="line-through">R$181,00</span>
                     </p>
-                    <p className="font-headline text-xl text-accent">Hoje saem de <span className="font-bold">GRAÇA</span> para você!</p>
+                    <p className="font-headline text-xl text-primary">Hoje saem de <span className="font-bold">graça</span> para você!</p>
                 </CardContent>
             </Card>
         </div>
