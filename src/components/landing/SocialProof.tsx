@@ -40,11 +40,8 @@ export default function SocialProof() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Mais de <span className="text-accent">1.387 pessoas</span> já estão <span className="font-bold text-accent">desinchando</span>
+            QUEM VIVE COMPROVA, LOGO NOS PRIMEIROS DIAS:
           </h2>
-          <p className="mt-4 text-lg text-foreground/70">
-            Veja o que nossos clientes estão dizendo sobre o protocolo.
-          </p>
         </div>
         <Carousel
           opts={{
