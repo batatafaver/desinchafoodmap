@@ -18,9 +18,9 @@ export default function LandingPage() {
         <Hero />
         <RealResults />
         <ForWhom />
-        <SocialProof />
         <Benefits />
         <WhatsInside />
+        <SocialProof />
         <Offer />
         <About />
         <GuaranteeFaq />
