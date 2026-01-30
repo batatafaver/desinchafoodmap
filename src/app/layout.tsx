@@ -1,19 +1,14 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
-import { Playfair_Display, Quicksand } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import Script from 'next/script';
 
-const quicksand = Quicksand({
+const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-quicksand',
-});
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-playfair-display',
+  variable: '--font-poppins',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
 export const metadata: Metadata = {
@@ -27,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning className={`${quicksand.variable} ${playfair.variable}`}>
+    <html lang="pt-BR" suppressHydrationWarning className={`${poppins.variable}`}>
       <head>
         <meta name="facebook-domain-verification" content="trw9993tg29qixcviyyjabqv4cypox" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
