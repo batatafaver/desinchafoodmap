@@ -59,7 +59,7 @@ export default function WhatsInside() {
                         alt={`Etapa do protocolo ${step.id}`}
                         width={300}
                         height={300}
-                        className="aspect-square w-full object-cover"
+                        className="w-full h-auto"
                         data-ai-hint={image.imageHint}
                       />
                     )}
