@@ -1,16 +1,9 @@
 'use client';
 
-import { CheckCircle2, Gift } from 'lucide-react';
+import { Gift } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent } from '@/components/ui/card';
-
-const contentItems = [
-  'Guia de Alimentos: <span class="font-bold text-primary">O que comer e o que evitar</span> (de forma simples!).',
-  '<span class="font-bold text-primary">+50 Receitas</span> rápidas, deliciosas e anti-inchaço (café, almoço e jantar).',
-  '<span class="font-bold text-primary">Lista de Compras Pronta</span> para você não perder tempo no mercado.',
-  'O plano exato para reintroduzir alimentos e <span class="font-bold text-primary">nunca mais sofrer</span>.',
-];
 
 const bonuses = [
   {
@@ -38,20 +31,14 @@ export default function WhatsInside() {
       <div className="container mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 px-4 md:grid-cols-2">
         <div className="md:sticky md:top-24">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O protocolo completo para sua <span className="text-primary">transformação</span>
+            Como funciona o Protocolo Desincha?
           </h2>
           
-          <p className="mt-4 text-lg text-foreground/70">
-            Você recebe <span className="font-bold text-primary">acesso imediato</span> a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo <span className="font-bold text-primary">simples, sem erro, sem achismo e sem enrolação.</span>
+          <p className="mt-4 text-base text-foreground/70">
+            O Protocolo Desincha é dividido em 4 Etapas Simples e Estratégicas, criadas para atacar o inchaço abdominal da causa ao resultado, em apenas 7 dias.
+            <br /><br />
+            Cada etapa tem um objetivo claro e um passo a passo fácil, pra você saber exatamente o que fazer; sem achismo, sem sofrimento e sem dieta maluca.
           </p>
-          <ul className="mt-8 space-y-4 text-base">
-            {contentItems.map((item, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
-                <span className="font-semibold" dangerouslySetInnerHTML={{ __html: item }}></span>
-              </li>
-            ))}
-          </ul>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -72,7 +59,7 @@ export default function WhatsInside() {
                                 />
                              )}
                              <div className="flex-1 text-center sm:text-left">
-                                <p className="font-bold text-primary flex items-center justify-center sm:justify-start gap-2 text-lg">
+                                <p className="font-bold text-primary flex items-center justify-center sm:justify-start gap-2 text-base">
                                     <Gift className="h-5 w-5" />
                                     {bonus.title}
                                 </p>
