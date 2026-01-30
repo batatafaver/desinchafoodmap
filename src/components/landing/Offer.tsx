@@ -75,7 +75,7 @@ export default function Offer() {
 
             <div className="my-8">
               <p className="text-base text-foreground/60 sm:text-lg">De <span className="line-through">R$197,00</span> por apenas:</p>
-              <p className="font-headline text-4xl font-bold text-primary sm:text-6xl">R$37,00</p>
+              <p className="font-headline text-6xl font-bold text-primary sm:text-7xl">R$37,00</p>
               <p className="text-base text-foreground/80">à vista</p>
             </div>
             <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
