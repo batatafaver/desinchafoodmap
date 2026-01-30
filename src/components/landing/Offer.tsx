@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Check, Gift, ShoppingCart, ShieldCheck } from 'lucide-react';
+import { Check, Gift, ShoppingCart } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -86,8 +86,8 @@ export default function Offer() {
             </Link>
             <div className="mt-6 flex flex-col items-center gap-3">
                 <Image
-                    src="https://lamattinadigital.com.br/wp-content/uploads/2023/11/selos-de-pagamento-1.png"
-                    alt="Métodos de Pagamento e Compra Segura"
+                    src="https://i.postimg.cc/MT0LSMvj/puzzle-me-compra-segura-badge-980x140-1.gif"
+                    alt="Compra Segura e Métodos de Pagamento"
                     width={350}
                     height={50}
                     className="object-contain"
