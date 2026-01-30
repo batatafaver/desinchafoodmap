@@ -2,8 +2,9 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Check, Gift, ShoppingCart } from 'lucide-react';
+import { Check, Gift, ShoppingCart, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Offer() {
   return (
@@ -15,7 +16,8 @@ export default function Offer() {
 
             <div className="mt-8 text-left">
               <p className="flex items-center gap-2 text-base font-bold text-foreground">
-                ✅ Ao Entrar Hoje, Você Recebe:
+                <Check className="h-5 w-5 mt-0.5 text-primary flex-shrink-0" />
+                 Ao Entrar Hoje, Você Recebe:
               </p>
 
               <ul className="mt-6 space-y-4 text-sm text-foreground/80 sm:text-base">
@@ -82,6 +84,19 @@ export default function Offer() {
                 QUERO O PROTOCOLO DESINCHA AGORA
               </Button>
             </Link>
+            <div className="mt-6 flex flex-col items-center gap-3">
+                <div className="flex items-center gap-2 text-sm text-foreground/70">
+                    <ShieldCheck className="h-4 w-4 text-primary"/>
+                    <span>Compra 100% Segura</span>
+                </div>
+                <Image 
+                    src="https://lamattinadigital.com.br/wp-content/uploads/2023/11/selos-de-pagamento-1.png"
+                    alt="Métodos de Pagamento"
+                    width={250}
+                    height={50}
+                    className="object-contain"
+                />
+            </div>
           </CardContent>
         </Card>
       </div>
