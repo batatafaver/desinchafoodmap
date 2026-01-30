@@ -85,14 +85,10 @@ export default function Offer() {
               </Button>
             </Link>
             <div className="mt-6 flex flex-col items-center gap-3">
-                <div className="flex items-center gap-2 text-sm text-foreground/70">
-                    <ShieldCheck className="h-4 w-4 text-primary"/>
-                    <span>Compra 100% Segura</span>
-                </div>
-                <Image 
+                <Image
                     src="https://lamattinadigital.com.br/wp-content/uploads/2023/11/selos-de-pagamento-1.png"
-                    alt="Métodos de Pagamento"
-                    width={250}
+                    alt="Métodos de Pagamento e Compra Segura"
+                    width={350}
                     height={50}
                     className="object-contain"
                 />
