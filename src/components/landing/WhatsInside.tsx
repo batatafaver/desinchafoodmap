@@ -23,6 +23,13 @@ const bonuses = [
   },
 ];
 
+const steps = [
+    { id: 'step-1' },
+    { id: 'step-2' },
+    { id: 'step-3' },
+    { id: 'step-4' },
+];
+
 
 export default function WhatsInside() {
 
@@ -39,6 +46,28 @@ export default function WhatsInside() {
             <br /><br />
             Cada etapa tem um objetivo claro e um passo a passo fácil, pra você saber exatamente o que fazer; sem achismo, sem sofrimento e sem dieta maluca.
           </p>
+
+          <div className="mt-8 grid grid-cols-2 gap-4">
+            {steps.map((step) => {
+              const image = PlaceHolderImages.find(p => p.id === step.id);
+              return (
+                <Card key={step.id} className="overflow-hidden rounded-lg shadow-md">
+                  <CardContent className="p-0">
+                    {image && (
+                      <Image
+                        src={image.imageUrl}
+                        alt={`Etapa do protocolo ${step.id}`}
+                        width={300}
+                        height={300}
+                        className="aspect-square w-full object-cover"
+                        data-ai-hint={image.imageHint}
+                      />
+                    )}
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
         </div>
 
         <div className="flex flex-col gap-4">

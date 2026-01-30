@@ -131,6 +131,30 @@
       "description": "Depoimento de resultado real 9",
       "imageUrl": "https://i.postimg.cc/PJh3KbMx/Whats-App-Image-2026-01-28-at-14-17-27.jpg",
       "imageHint": "testimonial whatsapp"
+    },
+    {
+      "id": "step-1",
+      "description": "Etapa 1 do Protocolo",
+      "imageUrl": "https://i.postimg.cc/pLfgPjNN/1.png",
+      "imageHint": "step one"
+    },
+    {
+      "id": "step-2",
+      "description": "Etapa 2 do Protocolo",
+      "imageUrl": "https://i.postimg.cc/YStT0S7Z/2.png",
+      "imageHint": "step two"
+    },
+    {
+      "id": "step-3",
+      "description": "Etapa 3 do Protocolo",
+      "imageUrl": "https://i.postimg.cc/BvJRbvss/3.png",
+      "imageHint": "step three"
+    },
+    {
+      "id": "step-4",
+      "description": "Etapa 4 do Protocolo",
+      "imageUrl": "https://i.postimg.cc/Xvntqv3b/4.png",
+      "imageHint": "step four"
     }
   ]
 }
