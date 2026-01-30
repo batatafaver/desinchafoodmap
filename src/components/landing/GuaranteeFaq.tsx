@@ -49,14 +49,14 @@ export default function GuaranteeFaq() {
             </Card>
           </div>
           <div className="flex flex-col">
-             <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl mb-4 text-center lg:text-left">
+             <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl mb-4 text-center lg:text-left">
               Suas dúvidas, <span className="text-primary">destruídas.</span>
             </h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
                 <AccordionItem key={index} value={`item-${index}`}>
-                  <AccordionTrigger className="text-left font-semibold text-base">{faq.question}</AccordionTrigger>
-                  <AccordionContent className="text-base text-foreground/80">
+                  <AccordionTrigger className="text-left font-semibold text-sm sm:text-base">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-sm sm:text-base text-foreground/80">
                     <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>

@@ -24,7 +24,7 @@ export default function ForWhom() {
     <section className="w-full bg-background py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
             O que você pode esperar em <span className="text-primary">apenas 7 dias</span> aplicando o Protocolo Desincha
           </h2>
         </div>
@@ -67,10 +67,10 @@ export default function ForWhom() {
             </Card>
         </div>
         <div className="mt-12 text-center">
-          <h3 className="font-headline text-2xl font-bold text-foreground sm:text-3xl">
+          <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl">
             O Protocolo Desincha existe para corrigir tudo isso
           </h3>
-          <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
+          <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80">
             Ele é um protocolo simples e prático, criado para atuar no que realmente causa o inchaço abdominal, e não apenas mascarar os sintomas.
           </p>
           <ul className="mt-6 inline-flex flex-col items-start gap-2 text-left text-base">

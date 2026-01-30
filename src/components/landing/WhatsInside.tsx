@@ -18,11 +18,11 @@ export default function WhatsInside() {
     <section id="conteudo" className="w-full bg-secondary/30 py-12 sm:py-16">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
             Como funciona o Protocolo Desincha?
           </h2>
           
-          <p className="mt-4 text-lg text-foreground/70">
+          <p className="mt-4 text-base sm:text-lg text-foreground/70">
             O Protocolo Desincha é dividido em 4 Etapas Simples e Estratégicas, criadas para atacar o inchaço abdominal da causa ao resultado, em apenas 7 dias.
             <br /><br />
             Cada etapa tem um objetivo claro e um passo a passo fácil, pra você saber exatamente o que fazer; sem achismo, sem sofrimento e sem dieta maluca.
@@ -52,10 +52,10 @@ export default function WhatsInside() {
           </div>
 
           <div className="mt-12 text-center">
-            <h3 className="font-headline text-2xl font-bold text-foreground sm:text-3xl">
+            <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl">
                 O Protocolo Desincha não é uma dieta passageira.
             </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
+            <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80">
                 É um processo validado, simples e aplicável, criado para mulheres que estão cansadas de viver inchadas e querem resultado real, rápido e sustentável.
             </p>
         </div>

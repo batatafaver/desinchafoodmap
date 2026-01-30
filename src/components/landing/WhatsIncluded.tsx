@@ -31,7 +31,7 @@ export default function WhatsIncluded() {
     <section id="o-que-voce-recebe" className="w-full bg-background py-12 sm:py-16">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
-          <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
             Aqui Está Exatamente Tudo o Que Você Vai Receber ao Entrar Hoje no Protocolo Desincha.
           </h2>
         </div>
@@ -40,8 +40,8 @@ export default function WhatsIncluded() {
             <Card className="overflow-hidden border-2 border-primary/20 bg-secondary/20 shadow-lg">
                 <CardContent className="p-6">
                     <div className="text-center">
-                        <h3 className="font-headline text-2xl font-bold text-primary">Protocolo Desincha – Método Completo de 7 Dias</h3>
-                        <p className="mt-2 text-base text-foreground/80">
+                        <h3 className="font-headline text-xl sm:text-2xl font-bold text-primary">Protocolo Desincha – Método Completo de 7 Dias</h3>
+                        <p className="mt-2 text-sm sm:text-base text-foreground/80">
                             O Protocolo Desincha é um método simples e estratégico, dividido em 4 Etapas Claras, pensadas para reduzir o inchaço abdominal da causa ao resultado, em apenas 7 dias.
                         </p>
                     </div>
@@ -52,14 +52,14 @@ export default function WhatsIncluded() {
                 {includedContent.map((item, index) => (
                      <Card key={index} className="flex flex-col">
                         <CardHeader>
-                            <CardTitle className="flex items-start gap-3 font-headline text-lg text-primary">
+                            <CardTitle className="flex items-start gap-3 font-headline text-base sm:text-lg text-primary">
                                 <Puzzle className="h-8 w-8 mt-0 flex-shrink-0 text-primary/80" />
                                 <span>{item.title}</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow flex flex-col">
-                            <p className="text-sm text-foreground/80 flex-grow">{item.description}</p>
-                            <div className="mt-4 flex items-start gap-2 text-sm text-accent">
+                            <p className="text-xs sm:text-sm text-foreground/80 flex-grow">{item.description}</p>
+                            <div className="mt-4 flex items-start gap-2 text-xs sm:text-sm text-accent">
                                 <Check className="h-5 w-5 mt-0.5 flex-shrink-0" />
                                 <p className="font-medium"><span className="font-bold">Resultado:</span> {item.result}</p>
                             </div>

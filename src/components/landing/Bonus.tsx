@@ -31,10 +31,10 @@ export default function Bonus() {
       <div className="container mx-auto max-w-4xl px-4">
         <div className="flex flex-col gap-8">
             <div className="text-center">
-                <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
+                <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl">
                 🎁 E AINDA, <span className="text-primary">3 BÔNUS EXCLUSIVOS</span> PARA ACELERAR SEUS RESULTADOS
                 </h2>
-                <p className="mt-2 text-lg text-foreground/80">(Disponíveis somente hoje)</p>
+                <p className="mt-2 text-base sm:text-lg text-foreground/80">(Disponíveis somente hoje)</p>
             </div>
             
             <div className="flex flex-col gap-6">
@@ -54,10 +54,10 @@ export default function Bonus() {
                                     />
                                 )}
                                 <div className="flex-1 text-center sm:text-left">
-                                    <p className="font-bold text-primary text-lg">
+                                    <p className="font-bold text-primary text-base sm:text-lg">
                                         🎁 {bonus.title}
                                     </p>
-                                    <p className="mt-2 text-base text-foreground/80">{bonus.description}</p>
+                                    <p className="mt-2 text-sm sm:text-base text-foreground/80">{bonus.description}</p>
                                     <p className="text-base font-semibold text-destructive mt-2">
                                         💰 De <span className="line-through">R${bonus.value},00</span> por R$0
                                     </p>
@@ -70,10 +70,10 @@ export default function Bonus() {
             
             <Card className="bg-primary/10 border-primary">
                 <CardContent className="p-6 text-center space-y-2">
-                    <p className="font-bold text-primary text-xl">
+                    <p className="font-bold text-primary text-lg sm:text-xl">
                         💣 Valor Total dos Bônus: <span className="line-through">R$181,00</span>
                     </p>
-                    <p className="font-headline text-2xl text-accent mt-2">
+                    <p className="font-headline text-xl sm:text-2xl text-accent mt-2">
                     🎯 Hoje, você recebe tudo isso de <span className="font-bold">GRAÇA</span> ao entrar no Protocolo Desincha.
                     </p>
                 </CardContent>
