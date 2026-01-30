@@ -33,7 +33,7 @@ export default function WhatsInside() {
             {steps.map((step) => {
               const image = PlaceHolderImages.find(p => p.id === step.id);
               return (
-                <Card key={step.id} className="overflow-hidden rounded-lg shadow-md">
+                <Card key={step.id} className="overflow-hidden rounded-lg shadow-md border-0 bg-transparent">
                   <CardContent className="p-0">
                     {image && (
                       <Image
@@ -50,6 +50,15 @@ export default function WhatsInside() {
               );
             })}
           </div>
+
+          <div className="mt-12 text-center">
+            <h3 className="font-headline text-2xl font-bold text-foreground sm:text-3xl">
+                O Protocolo Desincha não é uma dieta passageira.
+            </h3>
+            <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
+                É um processo validado, simples e aplicável, criado para mulheres que estão cansadas de viver inchadas e querem resultado real, rápido e sustentável.
+            </p>
+        </div>
       </div>
     </section>
   );
