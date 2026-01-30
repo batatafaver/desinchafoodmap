@@ -135,25 +135,25 @@
     {
       "id": "step-1",
       "description": "Etapa 1 do Protocolo",
-      "imageUrl": "https://i.postimg.cc/pLfgPjNN/1.png",
+      "imageUrl": "https://i.postimg.cc/V6fRXSHv/1.png",
       "imageHint": "step one"
     },
     {
       "id": "step-2",
       "description": "Etapa 2 do Protocolo",
-      "imageUrl": "https://i.postimg.cc/YStT0S7Z/2.png",
+      "imageUrl": "https://i.postimg.cc/ZRsr3wN4/2.png",
       "imageHint": "step two"
     },
     {
       "id": "step-3",
       "description": "Etapa 3 do Protocolo",
-      "imageUrl": "https://i.postimg.cc/BvJRbvss/3.png",
+      "imageUrl": "https://i.postimg.cc/C5Zb4bCM/3.png",
       "imageHint": "step three"
     },
     {
       "id": "step-4",
       "description": "Etapa 4 do Protocolo",
-      "imageUrl": "https://i.postimg.cc/Xvntqv3b/4.png",
+      "imageUrl": "https://i.postimg.cc/j2Wyhy6j/4.png",
       "imageHint": "step four"
     }
   ]
