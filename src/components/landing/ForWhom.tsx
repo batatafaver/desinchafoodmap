@@ -37,7 +37,7 @@ export default function ForWhom() {
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <ul className="space-y-3">
+                    <ul className="space-y-3 text-base">
                         {forYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
                                 <Check className="mt-1 h-5 w-5 flex-shrink-0 text-accent" />
@@ -55,7 +55,7 @@ export default function ForWhom() {
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
-                     <ul className="space-y-3">
+                     <ul className="space-y-3 text-base">
                         {notForYou.map((item, index) => (
                             <li key={index} className="flex items-start gap-3">
                                 <X className="mt-1 h-5 w-5 flex-shrink-0 text-destructive" />
@@ -73,7 +73,7 @@ export default function ForWhom() {
           <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
             Ele é um protocolo simples e prático, criado para atuar no que realmente causa o inchaço abdominal, e não apenas mascarar os sintomas.
           </p>
-          <ul className="mt-6 inline-flex flex-col items-start gap-2 text-left">
+          <ul className="mt-6 inline-flex flex-col items-start gap-2 text-left text-base">
             <li className="flex items-center gap-2 font-medium">
               <Check className="h-5 w-5 flex-shrink-0 text-accent" />
               <span>Sem dieta restritiva.</span>

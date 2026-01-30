@@ -19,7 +19,7 @@ export default function Offer() {
                 Entre <span className="font-bold text-accent">AGORA</span> no Protocolo Desincha Logo. O método que já fez <span className="font-bold text-accent">1.387 mulheres</span> darem um <span className="font-bold text-accent">BASTA</span> no inchaço, nos gases e na vergonha de vestir roupa colada 😤
             </p>
 
-             <ul className="mt-6 text-left space-y-2 text-foreground/80">
+             <ul className="mt-6 text-left space-y-2 text-base text-foreground/80">
                 <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 mt-1 text-accent flex-shrink-0" />
                     <span><span className="font-bold text-accent">Acesso imediato</span> ao protocolo completo</span>
@@ -37,11 +37,11 @@ export default function Offer() {
             <div className="my-8">
               <p className="text-lg text-foreground/60">De <span className="line-through">R$197</span> por apenas</p>
               <p className="font-headline text-6xl font-bold text-accent">R$37,00</p>
-              <p className="text-md text-foreground/80">à vista.</p>
+              <p className="text-base text-foreground/80">à vista.</p>
               <p className="mt-2 text-sm text-foreground/70">👉 <span className="font-bold text-accent">Menos que um café</span> pra parar de odiar a própria barriga ☕🖕</p>
             </div>
             <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
-              <Button size="lg" className="w-full max-w-md px-3 text-sm sm:px-8 sm:text-lg" variant="default">
+              <Button size="lg" className="w-full max-w-md px-3 text-sm sm:text-lg" variant="default">
                 <ShoppingCart className="mr-2 h-4 w-4" />
                 QUERO MEU PROTOCOLO AGORA!
               </Button>

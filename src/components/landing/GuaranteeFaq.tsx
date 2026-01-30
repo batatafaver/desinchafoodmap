@@ -43,21 +43,21 @@ export default function GuaranteeFaq() {
               <CardContent className="p-8 text-center">
                 <ShieldCheck className="mx-auto h-16 w-16" />
                 <h3 className="mt-4 font-headline text-2xl font-bold">Garantia Blindada: <span className="text-yellow-300">Risco TODO MEU!</span></h3>
-                <p className="mt-2">
-                  Eu confio tanto no poder deste protocolo que coloco minha pele em jogo. Teste tudo por <span className="font-bold text-yellow-300">7 dias</span>. Se você não notar uma melhora CLARA e EVIDENTE no seu bem-estar, ou simplesmente achar que não é para você, me envie um único e-mail. Eu devolvo <span className="font-bold text-yellow-300">100% do seu dinheiro</span> na hora. Sem perguntas, sem letras miúdas. O risco é zero para você.
+                <p className="mt-2 text-base">
+                  Eu confio tanto no poder deste protocolo que coloco minha pele em jogo. Teste tudo por <span class="font-bold text-yellow-300">7 dias</span>. Se você não notar uma melhora CLARA e EVIDENTE no seu bem-estar, ou simplesmente achar que não é para você, me envie um único e-mail. Eu devolvo <span class="font-bold text-yellow-300">100% do seu dinheiro</span> na hora. Sem perguntas, sem letras miúdas. O risco é zero para você.
                 </p>
               </CardContent>
             </Card>
           </div>
           <div className="flex flex-col">
-             <h2 className="font-headline text-3xl font-extrabold tracking-tight mb-4 text-center lg:text-left">
+             <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl mb-4 text-center lg:text-left">
               Suas Dúvidas, <span className="text-accent">Destruídas.</span>
             </h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
                 <AccordionItem key={index} value={`item-${index}`}>
-                  <AccordionTrigger className="text-left font-semibold">{faq.question}</AccordionTrigger>
-                  <AccordionContent className="text-foreground/80">
+                  <AccordionTrigger className="text-left font-semibold text-base">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-base text-foreground/80">
                     <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>

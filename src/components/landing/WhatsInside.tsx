@@ -47,7 +47,7 @@ export default function WhatsInside() {
           <p className="mt-4 text-lg text-foreground/70">
             Você recebe <span className="font-bold text-accent">ACESSO IMEDIATO</span> a todo o Protocolo de 7 Dias que você precisa para dar um BASTA no inchaço, acabar com a sensação de barriga estufada e resgatar sua autoestima — com um passo a passo <span className="font-bold text-accent">simples, sem erro, sem achismo e sem enrolação.</span>
           </p>
-          <ul className="mt-8 space-y-4">
+          <ul className="mt-8 space-y-4 text-base">
             {contentItems.map((item, index) => (
               <li key={index} className="flex items-start gap-3">
                 <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-accent" />
@@ -75,7 +75,7 @@ export default function WhatsInside() {
                                 />
                              )}
                              <div className="flex-1 text-center sm:text-left">
-                                <p className="font-bold text-accent flex items-center justify-center sm:justify-start gap-2">
+                                <p className="font-bold text-accent flex items-center justify-center sm:justify-start gap-2 text-lg">
                                     <Gift className="h-5 w-5" />
                                     {bonus.title}
                                 </p>
@@ -89,7 +89,7 @@ export default function WhatsInside() {
             })}
             <Card className="bg-accent/10 border-accent">
                 <CardContent className="p-4 text-center">
-                    <p className="font-bold text-accent">
+                    <p className="font-bold text-accent text-base">
                         Valor total dos bônus: <span className="line-through">R$181,00</span>
                     </p>
                     <p className="font-headline text-xl text-accent">Hoje saem de <span className="font-bold">GRAÇA</span> para você!</p>
