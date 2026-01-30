@@ -26,10 +26,10 @@ export default function Hero() {
           <div className="container mx-auto px-4">
             <div className="text-center text-white">
               <h1 className="font-headline text-2xl sm:text-3xl font-bold tracking-tight [text-shadow:0_1px_3px_rgba(0,0,0,0.4)]">
-                <span className="font-extrabold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-extrabold">corpo mais leve</span> e dizer <span className="font-extrabold">adeus ao inchaço.</span>
+                <span className="font-extrabold text-accent">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-extrabold text-accent">corpo mais leve</span> e dizer <span className="font-extrabold text-accent">adeus ao inchaço.</span>
               </h1>
               <p className="mt-4 mx-auto max-w-2xl text-sm sm:text-base text-white/80 [text-shadow:0_1px_2px_rgba(0,0,0,0.2)]">
-                Conheça o protocolo que já ajudou <span className="font-bold">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold">sem dietas ou treinos malucos.</span>
+                Conheça o protocolo que já ajudou <span className="font-bold text-accent">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold text-accent">sem dietas ou treinos malucos.</span>
               </p>
               <div className="mt-6 flex flex-col items-center justify-center gap-2">
                 <div className="flex items-center gap-2 text-sm">
@@ -54,10 +54,10 @@ export default function Hero() {
         <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4">
           <div className="text-center text-white">
             <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight [text-shadow:0_2px_4px_rgba(0,0,0,0.4)]">
-              <span className="font-extrabold">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-extrabold">corpo mais leve</span> e dizer <span className="font-extrabold">adeus ao inchaço.</span>
+              <span className="font-extrabold text-accent">7 dias</span> é tudo o que você precisa para conquistar um <span className="font-extrabold text-accent">corpo mais leve</span> e dizer <span className="font-extrabold text-accent">adeus ao inchaço.</span>
             </h1>
             <p className="mt-4 mx-auto max-w-2xl text-lg md:text-xl text-white/80 [text-shadow:0_1px_2px_rgba(0,0,0,0.2)]">
-              Conheça o protocolo que já ajudou <span className="font-bold">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold">sem dietas ou treinos malucos.</span>
+              Conheça o protocolo que já ajudou <span className="font-bold text-accent">milhares de mulheres</span> a eliminar o inchaço abdominal e voltar a se sentir confortáveis no próprio corpo, <span className="font-bold text-accent">sem dietas ou treinos malucos.</span>
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-2 md:flex-row md:justify-center md:gap-6">
               <div className="flex items-center gap-2 text-sm">
