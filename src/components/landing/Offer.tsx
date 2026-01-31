@@ -20,7 +20,7 @@ export default function Offer() {
                  Ao Entrar Hoje, Você Recebe:
               </p>
 
-              <ul className="mt-6 space-y-4 text-sm text-foreground/80 sm:text-base">
+              <ul className="mt-6 space-y-4 text-sm text-muted-foreground sm:text-base">
                 <li className="flex items-start gap-3">
                   <Check className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                   <div>
@@ -74,9 +74,9 @@ export default function Offer() {
             </div>
 
             <div className="my-8">
-              <p className="text-base text-foreground/60 sm:text-lg">De <span className="line-through">R$197,00</span> por apenas:</p>
+              <p className="text-base text-muted-foreground sm:text-lg">De <span className="line-through">R$197,00</span> por apenas:</p>
               <p className="font-headline text-6xl font-bold text-primary sm:text-7xl">R$37,00</p>
-              <p className="text-base text-foreground/80">à vista</p>
+              <p className="text-base text-muted-foreground">à vista</p>
             </div>
             <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
               <Button size="lg" className="w-full max-w-md px-6 text-base whitespace-normal h-auto py-3" variant="default">

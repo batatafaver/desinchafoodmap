@@ -66,7 +66,7 @@ export default function SocialProof() {
                           />
                         )}
                         <p className="mt-4 text-lg font-semibold">{testimonial.name}</p>
-                        <p className="text-sm text-foreground/60">{testimonial.location}</p>
+                        <p className="text-sm text-muted-foreground">{testimonial.location}</p>
                         <div className="my-2 flex text-yellow-500">
                           <Star className="h-4 w-4 fill-current" />
                           <Star className="h-4 w-4 fill-current" />
@@ -74,7 +74,7 @@ export default function SocialProof() {
                           <Star className="h-4 w-4 fill-current" />
                           <Star className="h-4 w-4 fill-current" />
                         </div>
-                        <p className="text-base italic text-foreground/80 flex-grow" dangerouslySetInnerHTML={{ __html: testimonial.comment }}></p>
+                        <p className="text-base italic text-muted-foreground flex-grow" dangerouslySetInnerHTML={{ __html: testimonial.comment }}></p>
                       </CardContent>
                     </Card>
                   </div>

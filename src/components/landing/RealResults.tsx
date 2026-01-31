@@ -36,7 +36,7 @@ export default function RealResults() {
       <div className="container mx-auto max-w-5xl px-4">
         <div className="text-center">
           <h2 className="font-headline text-2xl font-extrabold tracking-tight sm:text-3xl" dangerouslySetInnerHTML={{ __html: 'Em <span class="text-accent">apenas 7 Dias</span>, essas mulheres <span class="font-bold text-accent">desincharam a barriga</span>' }} />
-          <p className="mt-4 text-base text-foreground/70 sm:text-lg" dangerouslySetInnerHTML={{ __html: '<span class="font-bold text-accent">Resultados reais</span> de mulheres que aplicaram o Protocolo Desincha e <span class="font-bold">reduziram o inchaço abdominal</span> sem dietas restritivas ou treinos malucos.' }} />
+          <p className="mt-4 text-base text-muted-foreground sm:text-lg" dangerouslySetInnerHTML={{ __html: '<span class="font-bold text-accent">Resultados reais</span> de mulheres que aplicaram o Protocolo Desincha e <span class="font-bold">reduziram o inchaço abdominal</span> sem dietas restritivas ou treinos malucos.' }} />
         </div>
         <Carousel
           plugins={[plugin.current]}

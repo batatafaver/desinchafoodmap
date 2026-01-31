@@ -24,12 +24,12 @@ export default function LandingFooter() {
             <div />
           )}
           <div className="flex gap-4 text-sm">
-            <Link href="#" className="text-foreground/70 hover:text-accent">Política de Privacidade</Link>
-            <Link href="#" className="text-foreground/70 hover:text-accent">Termos de Uso</Link>
+            <Link href="#" className="text-muted-foreground hover:text-accent">Política de Privacidade</Link>
+            <Link href="#" className="text-muted-foreground hover:text-accent">Termos de Uso</Link>
           </div>
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
-          <p className="text-center text-xs text-foreground/60 sm:text-left" dangerouslySetInnerHTML={{ __html: `
+          <p className="text-center text-xs text-muted-foreground sm:text-left" dangerouslySetInnerHTML={{ __html: `
             © 2025 Protocolo Desinch@ — Todos os direitos reservados.
             <br />
             Este produto <span class="font-bold">não substitui o parecer médico profissional.</span> <span class="font-bold">Sempre consulte um profissional da saúde</span> para tratar de assuntos relativos à sua saúde. Os resultados podem variar de pessoa para pessoa.` }} />

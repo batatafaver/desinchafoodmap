@@ -39,7 +39,7 @@ export default function WhatsIncluded() {
                 <CardContent className="p-6">
                     <div className="text-center">
                         <h3 className="font-headline text-xl sm:text-2xl font-bold text-primary">Protocolo Desincha – Método Completo de 7 Dias</h3>
-                        <p className="mt-2 text-sm sm:text-base text-foreground/80" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha é um método <span class="font-bold">simples e estratégico</span>, dividido em <span class="font-bold text-primary">4 Etapas Claras</span>, pensadas para reduzir o inchaço abdominal da causa ao resultado, em <span class="font-bold">apenas 7 dias.</span>' }} />
+                        <p className="mt-2 text-sm sm:text-base text-muted-foreground" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha é um método <span class="font-bold">simples e estratégico</span>, dividido em <span class="font-bold text-primary">4 Etapas Claras</span>, pensadas para reduzir o inchaço abdominal da causa ao resultado, em <span class="font-bold">apenas 7 dias.</span>' }} />
                     </div>
                 </CardContent>
             </Card>
@@ -54,7 +54,7 @@ export default function WhatsIncluded() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow flex flex-col">
-                            <p className="text-xs sm:text-sm text-foreground/80 flex-grow" dangerouslySetInnerHTML={{ __html: item.description }}/>
+                            <p className="text-xs sm:text-sm text-muted-foreground flex-grow" dangerouslySetInnerHTML={{ __html: item.description }}/>
                             <div className="mt-4 flex items-start gap-2 text-xs sm:text-sm text-accent">
                                 <Check className="h-5 w-5 mt-0.5 flex-shrink-0" />
                                 <p className="font-medium" dangerouslySetInnerHTML={{ __html: '<span class="font-bold">Resultado:</span> ' + item.result }}/>

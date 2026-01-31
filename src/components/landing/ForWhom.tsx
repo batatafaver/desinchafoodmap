@@ -66,7 +66,7 @@ export default function ForWhom() {
         </div>
         <div className="mt-12 text-center">
           <h3 className="font-headline text-xl font-bold text-foreground sm:text-2xl" dangerouslySetInnerHTML={{ __html: 'O Protocolo Desincha existe para <span class="text-primary">corrigir tudo isso</span>' }} />
-          <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-foreground/80" dangerouslySetInnerHTML={{ __html: 'Ele é um protocolo <span class="font-bold">simples e prático</span>, criado para atuar no que <span class="font-bold">realmente causa o inchaço abdominal</span>, e não apenas mascarar os sintomas.' }} />
+          <p className="mt-4 max-w-3xl mx-auto text-base sm:text-lg text-muted-foreground" dangerouslySetInnerHTML={{ __html: 'Ele é um protocolo <span class="font-bold">simples e prático</span>, criado para atuar no que <span class="font-bold">realmente causa o inchaço abdominal</span>, e não apenas mascarar os sintomas.' }} />
           <ul className="mt-6 inline-flex flex-col items-start gap-2 text-left text-base">
             <li className="flex items-center gap-2 font-medium">
               <Check className="h-5 w-5 flex-shrink-0 text-primary" />

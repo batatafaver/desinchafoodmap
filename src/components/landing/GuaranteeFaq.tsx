@@ -56,7 +56,7 @@ export default function GuaranteeFaq() {
               {faqs.map((faq, index) => (
                 <AccordionItem key={index} value={`item-${index}`}>
                   <AccordionTrigger className="text-left font-semibold text-sm sm:text-base">{faq.question}</AccordionTrigger>
-                  <AccordionContent className="text-sm sm:text-base text-foreground/80">
+                  <AccordionContent className="text-sm sm:text-base text-muted-foreground">
                     <span dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </AccordionContent>
                 </AccordionItem>

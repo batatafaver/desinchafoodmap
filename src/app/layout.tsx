@@ -28,7 +28,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://connect.facebook.net" />
-        <link rel="preconnect" href="https://www.facebook.com" />
         <link rel="preconnect" href="https://www.clarity.ms" />
         <Script id="clarity-pixel" strategy="lazyOnload">
           {`

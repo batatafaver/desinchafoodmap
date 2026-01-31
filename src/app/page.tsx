@@ -1,6 +1,7 @@
 import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
 import dynamic from 'next/dynamic';
+import type { Metadata } from 'next';
 
 const RealResults = dynamic(() => import('@/components/landing/RealResults'));
 const ForWhom = dynamic(() => import('@/components/landing/ForWhom'));
@@ -13,6 +14,10 @@ const Offer = dynamic(() => import('@/components/landing/Offer'));
 const About = dynamic(() => import('@/components/landing/About'));
 const GuaranteeFaq = dynamic(() => import('@/components/landing/GuaranteeFaq'));
 const LandingFooter = dynamic(() => import('@/components/landing/LandingFooter'));
+
+export const metadata: Metadata = {
+  description: 'O protocolo prático para mulheres de saco cheio de sofrer com inchaço. Recupere sua autoestima em 7 dias.',
+};
 
 export default function LandingPage() {
   return (
