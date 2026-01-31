@@ -1,16 +1,18 @@
 import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
-import SocialProof from '@/components/landing/SocialProof';
-import Benefits from '@/components/landing/Benefits';
-import WhatsInside from '@/components/landing/WhatsInside';
-import Offer from '@/components/landing/Offer';
-import RealResults from '@/components/landing/RealResults';
-import GuaranteeFaq from '@/components/landing/GuaranteeFaq';
-import About from '@/components/landing/About';
-import LandingFooter from '@/components/landing/LandingFooter';
-import ForWhom from '@/components/landing/ForWhom';
-import Bonus from '@/components/landing/Bonus';
-import WhatsIncluded from '@/components/landing/WhatsIncluded';
+import dynamic from 'next/dynamic';
+
+const RealResults = dynamic(() => import('@/components/landing/RealResults'));
+const ForWhom = dynamic(() => import('@/components/landing/ForWhom'));
+const Benefits = dynamic(() => import('@/components/landing/Benefits'));
+const SocialProof = dynamic(() => import('@/components/landing/SocialProof'));
+const WhatsInside = dynamic(() => import('@/components/landing/WhatsInside'));
+const WhatsIncluded = dynamic(() => import('@/components/landing/WhatsIncluded'));
+const Bonus = dynamic(() => import('@/components/landing/Bonus'));
+const Offer = dynamic(() => import('@/components/landing/Offer'));
+const About = dynamic(() => import('@/components/landing/About'));
+const GuaranteeFaq = dynamic(() => import('@/components/landing/GuaranteeFaq'));
+const LandingFooter = dynamic(() => import('@/components/landing/LandingFooter'));
 
 export default function LandingPage() {
   return (

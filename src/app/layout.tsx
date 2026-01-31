@@ -30,7 +30,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="preconnect" href="https://www.facebook.com" />
         <link rel="preconnect" href="https://www.clarity.ms" />
-        <Script id="clarity-pixel" strategy="afterInteractive">
+        <Script id="clarity-pixel" strategy="lazyOnload">
           {`
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -40,7 +40,7 @@ export default function RootLayout({
           `}
         </Script>
         {/* Meta Pixel Code */}
-        <Script id="facebook-pixel" strategy="afterInteractive">
+        <Script id="facebook-pixel" strategy="lazyOnload">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
