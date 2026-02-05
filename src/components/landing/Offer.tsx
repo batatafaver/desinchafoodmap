@@ -78,7 +78,7 @@ export default function Offer() {
               <p className="font-headline text-6xl font-bold text-primary sm:text-7xl">R$37,00</p>
               <p className="text-base text-muted-foreground">à vista</p>
             </div>
-            <Link href="https://zuckpay.com.br/checkout/protocolo-7-dias-foodmap" target="_blank">
+            <Link href="https://pay.kiwify.com.br/Vk2v3do" target="_blank">
               <Button size="lg" className="w-full max-w-md px-6 text-base whitespace-normal h-auto py-3" variant="default">
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 QUERO O PROTOCOLO DESINCHA AGORA
